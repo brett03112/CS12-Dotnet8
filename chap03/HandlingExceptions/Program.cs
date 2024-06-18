@@ -54,6 +54,7 @@ catch (FormatException)
 
 #region Throwing overflow exceptions with the checked keyword
 
+// The checked keyword is used to throw an exception for overflow exceptions rather than allowing the program to continue.
 checked
 {
     try

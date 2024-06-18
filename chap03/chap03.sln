@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingConverting", "Castin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "HandlingExceptions\HandlingExceptions.csproj", "{805F3FBF-6600-4457-A971-E2BEA5C176DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03Ex02LoopsAndOverflow", "Ch03Ex02LoopsAndOverflow\Ch03Ex02LoopsAndOverflow.csproj", "{53C6932E-8C61-461B-AD14-6E396F17B0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03Ex03Operators", "Ch03Ex03Operators\Ch03Ex03Operators.csproj", "{EC6F05A1-6069-4541-AC76-7FDA0B641364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{805F3FBF-6600-4457-A971-E2BEA5C176DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{805F3FBF-6600-4457-A971-E2BEA5C176DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{805F3FBF-6600-4457-A971-E2BEA5C176DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C6932E-8C61-461B-AD14-6E396F17B0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C6932E-8C61-461B-AD14-6E396F17B0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C6932E-8C61-461B-AD14-6E396F17B0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C6932E-8C61-461B-AD14-6E396F17B0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6F05A1-6069-4541-AC76-7FDA0B641364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6F05A1-6069-4541-AC76-7FDA0B641364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6F05A1-6069-4541-AC76-7FDA0B641364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6F05A1-6069-4541-AC76-7FDA0B641364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

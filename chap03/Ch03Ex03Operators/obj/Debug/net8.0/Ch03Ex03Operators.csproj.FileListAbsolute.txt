@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\bin\Debug\net8.0\Ch03Ex03Operators.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\bin\Debug\net8.0\Ch03Ex03Operators.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\bin\Debug\net8.0\Ch03Ex03Operators.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\bin\Debug\net8.0\Ch03Ex03Operators.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\bin\Debug\net8.0\Ch03Ex03Operators.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\refint\Ch03Ex03Operators.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\Ch03Ex03Operators.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Ch03Ex03Operators\obj\Debug\net8.0\ref\Ch03Ex03Operators.dll
