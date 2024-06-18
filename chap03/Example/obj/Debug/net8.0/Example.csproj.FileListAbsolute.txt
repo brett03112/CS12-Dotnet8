@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\bin\Debug\net8.0\Example.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\bin\Debug\net8.0\Example.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\bin\Debug\net8.0\Example.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\bin\Debug\net8.0\Example.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\bin\Debug\net8.0\Example.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\refint\Example.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\Example.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Example\obj\Debug\net8.0\ref\Example.dll

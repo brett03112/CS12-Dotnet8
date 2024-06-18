@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\bin\Debug\net8.0\IterationStatements.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\bin\Debug\net8.0\IterationStatements.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\bin\Debug\net8.0\IterationStatements.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\bin\Debug\net8.0\IterationStatements.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\bin\Debug\net8.0\IterationStatements.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\refint\IterationStatements.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\IterationStatements.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\IterationStatements\obj\Debug\net8.0\ref\IterationStatements.dll
