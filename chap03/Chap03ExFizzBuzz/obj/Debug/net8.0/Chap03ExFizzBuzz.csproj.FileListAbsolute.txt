@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\bin\Debug\net8.0\Chap03ExFizzBuzz.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\bin\Debug\net8.0\Chap03ExFizzBuzz.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\bin\Debug\net8.0\Chap03ExFizzBuzz.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\bin\Debug\net8.0\Chap03ExFizzBuzz.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\bin\Debug\net8.0\Chap03ExFizzBuzz.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\refint\Chap03ExFizzBuzz.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\Chap03ExFizzBuzz.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap03\Chap03ExFizzBuzz\obj\Debug\net8.0\ref\Chap03ExFizzBuzz.dll

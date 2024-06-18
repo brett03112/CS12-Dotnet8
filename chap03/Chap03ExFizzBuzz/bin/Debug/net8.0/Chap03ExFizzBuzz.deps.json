@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Chap03ExFizzBuzz/1.0.0": {
+        "runtime": {
+          "Chap03ExFizzBuzz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chap03ExFizzBuzz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
