@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\refint\TopLevelFunctions.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\TopLevelFunctions\obj\Debug\net8.0\ref\TopLevelFunctions.dll
