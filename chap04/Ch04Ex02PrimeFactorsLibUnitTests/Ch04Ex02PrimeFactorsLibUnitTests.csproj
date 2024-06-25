@@ -20,4 +20,7 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ch04Ex02PrimeFactorsLib\Ch04Ex02PrimeFactorsLib.csproj" />
+  </ItemGroup>
 </Project>

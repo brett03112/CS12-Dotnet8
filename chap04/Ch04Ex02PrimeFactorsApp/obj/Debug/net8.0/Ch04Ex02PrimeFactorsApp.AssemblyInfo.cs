@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ch04Ex02PrimeFactorsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44a3f0659c10e4cd04bd24927bce2cf05508ea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0752cda901f1fc1e072f3bfb52a5eff37a0af158")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ch04Ex02PrimeFactorsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ch04Ex02PrimeFactorsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
