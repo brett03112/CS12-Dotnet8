@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\bin\Release\net8.0\Instrumenting.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\bin\Release\net8.0\Instrumenting.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\bin\Release\net8.0\Instrumenting.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\bin\Release\net8.0\Instrumenting.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\bin\Release\net8.0\Instrumenting.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\refint\Instrumenting.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\Instrumenting.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Instrumenting\obj\Release\net8.0\ref\Instrumenting.dll

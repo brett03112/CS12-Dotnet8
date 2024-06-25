@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ch03Ex02LoopsAndOverflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3623c769238e7a005dcfb219eab055631e39d9e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f44a3f0659c10e4cd04bd24927bce2cf05508ea0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ch03Ex02LoopsAndOverflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ch03Ex02LoopsAndOverflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

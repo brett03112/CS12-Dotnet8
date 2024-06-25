@@ -12,7 +12,14 @@ partial class Program
         }
         WriteLine();
     }
-
+    /// <summary>
+    /// Calculates the sales tax based on the country
+    /// </summary>
+    /// <param name="amount"></param>
+    /// <param name="twoLetterRegionCode"></param>
+    /// <returns>
+    /// The amount of sales tax to pay => (decimal) amount * rate
+    /// </returns>
     static decimal CalculateTax(decimal amount, string twoLetterRegionCode)
     {
         decimal rate = twoLetterRegionCode switch
@@ -28,6 +35,12 @@ partial class Program
         };
         return amount * rate;
     }
+    /// <summary>
+    /// Configure the console to use the specified culture and optionally use the computer's culture.
+    /// </summary>
+    /// <param name="culture"></param>
+    /// <param name="useComputerCulture"></param>
+    /// <returns>"void"</returns>
     // This function enables UTF-8 encoding for the console output for some special symbols like the Euro symbol
     // This function also controls the current culture used to format dates, times, and currency amounts
     static void ConfigureConsole(string culture = "en-US", bool useComputerCulture = true)
@@ -134,6 +147,72 @@ partial class Program
             {
                 WriteLine($"{i}! throws {ex:GetType()}: {ex.Message}");
             }
+        }
+    }
+    /// <summary>
+    /// Demonstrate the use of the Fibonacci function in imperative recursive style
+    /// </summary>
+    /// <param name="term"></param>
+    /// <returns>FibImperative(term - 1) + FibImperative(term - 2)</returns>
+    /// <exception cref="ArgumentOutOfRangeException"></exception>
+    static int FibImperative(uint term)
+    {
+        if (term == 0)
+        {
+            throw new ArgumentOutOfRangeException();
+        }
+        else if (term == 1)
+        {
+            return 0;
+        }
+        else if (term == 2)
+        {
+            return 1;
+        }
+        else
+        {
+            return FibImperative(term - 1) + FibImperative(term - 2);
+        }
+    }
+    /// <summary>
+    /// Demonstrate the use of the Fibonacci function with the CardinalToOrdinal function 
+    /// </summary>
+    static void RunFibImperative()
+    {
+        for (uint i = 1; i <= 30; i++)
+        {
+            WriteLine("The {0} term of the Fibonnacci sequence in {1:N0}.",
+                arg0: CardinalToOrdinal(i),
+                arg1: FibImperative(term: i));
+        }
+    }
+
+    /// <summary>
+    /// Demonstrate the use of the Fibonacci function in functional style usinga switch expression
+    /// </summary>
+    /// <param name="term"></param>
+    /// <returns>
+    /// Returns int32 FibFunctional(term - 1) + FibFunctional(term - 2)
+    /// </returns>
+    /// <exception cref="ArgumentOutOfRangeException"></exception>
+    static int FibFunctional(uint term) => term switch
+    {
+        0 => throw new ArgumentOutOfRangeException(),
+        1 => 0,
+        2 => 1,
+        _ => FibFunctional(term - 1) + FibFunctional(term - 2)
+    };
+
+    /// <summary>
+    /// Demonstrate the use of the Fibonacci function with the CardinalToOrdinal function
+    /// </summary>
+    static void RunFibFunctional()
+    {
+        for (uint i = 1; i <= 30; i++)
+        {
+            WriteLine("The {0} term of the Fibonnacci sequence in {1:N0}.",
+                arg0: CardinalToOrdinal(i),
+                arg1: FibFunctional(term: i));
         }
     }
 

@@ -13,9 +13,15 @@ WriteLine($"You must pay {taxToPay:C} in sales tax.");
 
 WriteLine($"You must pay {CalculateTax(amount:149, twoLetterRegionCode:"FR"):C} in sales tax.");
 
-*/
+
 
 RunCardinalToOrdinal();
 
 
 RunFactorial();
+
+
+RunFibImperative();
+*/
+
+RunFibFunctional();
