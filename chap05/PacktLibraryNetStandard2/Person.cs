@@ -15,7 +15,7 @@ public class Person : object
         time zone. The choice depends on how much detail you need to store.
     */
 
-    public List<Person> Children = new();
+    public List<Person> Children = [];
     public WondersOfTheAncientWorld FavoriteAncientWonder;
     public WondersOfTheAncientWorld BucketList;
 
