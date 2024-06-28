@@ -10,3 +10,15 @@ C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Ch04Ex02PrimeFactorsL
 C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\refint\Ch04Ex02PrimeFactorsLib.dll
 C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.pdb
 C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\ref\Ch04Ex02PrimeFactorsLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\bin\Debug\net8.0\Ch04Ex02PrimeFactorsLib.deps.json
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\bin\Debug\net8.0\Ch04Ex02PrimeFactorsLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\bin\Debug\net8.0\Ch04Ex02PrimeFactorsLib.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.AssemblyInfoInputs.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.AssemblyInfo.cs
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.csproj.CoreCompileInputs.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.sourcelink.json
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\refint\Ch04Ex02PrimeFactorsLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\Ch04Ex02PrimeFactorsLib.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\Ch04Ex02PrimeFactorsLib\obj\Debug\net8.0\ref\Ch04Ex02PrimeFactorsLib.dll

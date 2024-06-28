@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj": {}
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj": {
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj",
         "projectName": "Chap03ExFizzBuzz",
-        "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj",
+        "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Chap03ExFizzBuzz\\Chap03ExFizzBuzz.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Chap03ExFizzBuzz\\obj\\",
+        "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Chap03ExFizzBuzz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

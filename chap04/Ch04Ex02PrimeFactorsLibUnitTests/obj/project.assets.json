@@ -5530,11 +5530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\Ch04Ex02PrimeFactorsLibUnitTests\\Ch04Ex02PrimeFactorsLibUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\Ch04Ex02PrimeFactorsLibUnitTests\\Ch04Ex02PrimeFactorsLibUnitTests.csproj",
       "projectName": "Ch04Ex02PrimeFactorsLibUnitTests",
-      "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\Ch04Ex02PrimeFactorsLibUnitTests\\Ch04Ex02PrimeFactorsLibUnitTests.csproj",
+      "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\Ch04Ex02PrimeFactorsLibUnitTests\\Ch04Ex02PrimeFactorsLibUnitTests.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\Ch04Ex02PrimeFactorsLibUnitTests\\obj\\",
+      "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\Ch04Ex02PrimeFactorsLibUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5556,8 +5556,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\Ch04Ex02PrimeFactorsLib\\Ch04Ex02PrimeFactorsLib.csproj": {
-              "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\Ch04Ex02PrimeFactorsLib\\Ch04Ex02PrimeFactorsLib.csproj"
+            "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\Ch04Ex02PrimeFactorsLib\\Ch04Ex02PrimeFactorsLib.csproj": {
+              "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\Ch04Ex02PrimeFactorsLib\\Ch04Ex02PrimeFactorsLib.csproj"
             }
           }
         }

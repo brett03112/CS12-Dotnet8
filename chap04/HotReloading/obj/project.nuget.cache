@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rudR4qEe7bc=",
+  "dgSpecHash": "9WHi2/i9AXg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\HotReloading\\HotReloading.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\HotReloading\\HotReloading.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

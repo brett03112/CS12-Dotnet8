@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Cw6LjHcFv4=",
+  "dgSpecHash": "oarVJ2iNHVY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\CallStackExceptionHandling\\CallStackExceptionHandling.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\CallStackExceptionHandling\\CallStackExceptionHandling.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

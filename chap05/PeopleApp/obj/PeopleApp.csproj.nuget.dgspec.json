@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PeopleApp\\PeopleApp.csproj": {}
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PeopleApp\\PeopleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
         "projectName": "PacktLibraryNetStandard2",
-        "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
+        "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PacktLibraryNetStandard2\\obj\\",
+        "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryNetStandard2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PeopleApp\\PeopleApp.csproj": {
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PeopleApp\\PeopleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PeopleApp\\PeopleApp.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PeopleApp\\PeopleApp.csproj",
         "projectName": "PeopleApp",
-        "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PeopleApp\\PeopleApp.csproj",
+        "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PeopleApp\\PeopleApp.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PeopleApp\\obj\\",
+        "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PeopleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {
-                "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj"
+              "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {
+                "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj"
               }
             }
           }

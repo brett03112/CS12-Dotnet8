@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Ch03Ex02LoopsAndOverflow\\Ch03Ex02LoopsAndOverflow.csproj",
+      "projectUniqueName": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Ch03Ex02LoopsAndOverflow\\Ch03Ex02LoopsAndOverflow.csproj",
       "projectName": "Ch03Ex02LoopsAndOverflow",
-      "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Ch03Ex02LoopsAndOverflow\\Ch03Ex02LoopsAndOverflow.csproj",
+      "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Ch03Ex02LoopsAndOverflow\\Ch03Ex02LoopsAndOverflow.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Ch03Ex02LoopsAndOverflow\\obj\\",
+      "outputPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Ch03Ex02LoopsAndOverflow\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

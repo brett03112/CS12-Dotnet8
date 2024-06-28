@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\CastingConverting\\CastingConverting.csproj",
+      "projectUniqueName": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\CastingConverting\\CastingConverting.csproj",
       "projectName": "CastingConverting",
-      "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\CastingConverting\\CastingConverting.csproj",
+      "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\CastingConverting\\CastingConverting.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\CastingConverting\\obj\\",
+      "outputPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\CastingConverting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

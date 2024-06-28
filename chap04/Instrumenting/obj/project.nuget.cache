@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0uIT9T+tDrU=",
+  "dgSpecHash": "C166Li9wLSA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\Instrumenting\\Instrumenting.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\Instrumenting\\Instrumenting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

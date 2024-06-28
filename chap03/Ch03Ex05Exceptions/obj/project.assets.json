@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Ch03Ex05Exceptions\\Ch03Ex05Exceptions.csproj",
+      "projectUniqueName": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Ch03Ex05Exceptions\\Ch03Ex05Exceptions.csproj",
       "projectName": "Ch03Ex05Exceptions",
-      "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Ch03Ex05Exceptions\\Ch03Ex05Exceptions.csproj",
+      "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Ch03Ex05Exceptions\\Ch03Ex05Exceptions.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap03\\Ch03Ex05Exceptions\\obj\\",
+      "outputPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap03\\Ch03Ex05Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

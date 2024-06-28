@@ -10,3 +10,15 @@ C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\CalculatorLib\obj\Deb
 C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\CalculatorLib\obj\Debug\net8.0\refint\CalculatorLib.dll
 C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.pdb
 C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap04\CalculatorLib\obj\Debug\net8.0\ref\CalculatorLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\bin\Debug\net8.0\CalculatorLib.deps.json
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\bin\Debug\net8.0\CalculatorLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\bin\Debug\net8.0\CalculatorLib.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.AssemblyInfoInputs.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.AssemblyInfo.cs
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.csproj.CoreCompileInputs.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.sourcelink.json
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\refint\CalculatorLib.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap04\CalculatorLib\obj\Debug\net8.0\ref\CalculatorLib.dll

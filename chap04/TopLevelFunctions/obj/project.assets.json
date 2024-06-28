@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\TopLevelFunctions\\TopLevelFunctions.csproj",
+      "projectUniqueName": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\TopLevelFunctions\\TopLevelFunctions.csproj",
       "projectName": "TopLevelFunctions",
-      "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\TopLevelFunctions\\TopLevelFunctions.csproj",
+      "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\TopLevelFunctions\\TopLevelFunctions.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap04\\TopLevelFunctions\\obj\\",
+      "outputPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap04\\TopLevelFunctions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
