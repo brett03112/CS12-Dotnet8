@@ -1,5 +1,6 @@
-﻿using System.Net;
+﻿using Fruit = (string Name, int Number); // Aliasing a tuple
 using Packt.Shared;
+
 
 ConfigureConsole(); // Sets current culture to "en-US"
 // Alternatives:
@@ -25,7 +26,7 @@ about standard date and time format codes at the following link: https://learn.
 microsoft.com/en-us/dotnet/standard/base-types/standard-date-andtime-format-strings.
 
 */
-bob.FavoriteAncientWonder = WondersOfTheAncientWorld.StatueOfZeusAtOlympia;
+bob.FavoriteAncientWonder = (WondersOfTheAncientWorld)32;
 WriteLine(format: "{0}'s favorite wonder is {1}. It's integer is {2}.\n\n",
     arg0 : bob.Name, arg1: bob.FavoriteAncientWonder, arg2: (int)bob.FavoriteAncientWonder);
 
@@ -152,4 +153,154 @@ WriteLine($"After: e = {e}, f = {f}, g = {g}, h = {h}\n");
 (string, int) fruit = bob.GetFruit();
 WriteLine($"{fruit.Item1}, {fruit.Item2} there are.");
 WriteLine($"There are {fruit.Item2} {fruit.Item1}.\n");
+
+// Without an aliased tuple type
+var fruitName = bob.GetNamedFruit(); 
+WriteLine($"There are {fruitName.Number} {fruitName.Name}.\n");
+
+// With an aliased tuple type
+Fruit namedFruit = bob.GetNamedFruit();
+WriteLine($"There are {namedFruit.Number} {namedFruit.Name}.\n");
+
+// Deconstructed tuple
+(string fruitName1, int fruitNumber) = bob.GetFruit();
+WriteLine($"Deconstructed Tuple: {fruitName1}, {fruitNumber}.");
+
+var thing1 = ("Neville", 4);
+WriteLine($"{thing1.Item1} has {thing1.Item2} children.");
+
+var thing2 = (bob.Name, bob.Children.Count);
+WriteLine($"{thing2.Item1} has {thing2.Item2} children.\n");
+
+var (name1, dob1) = bob; // Implicitly calls the Deconstruct method
+WriteLine($"Deconstructed person: {name1}, {dob1}.");
+
+var (name2, dob2, fav2) = bob;
+WriteLine($"Deconstructed person: {name2}, {dob2}, {fav2}.\n");
+
+// Using the Factorial function
+int number = 8;
+try
+{
+    WriteLine($"{number}! is {Person.Factorial(number):N0}.\n");
+}
+catch (Exception ex)
+{
+    WriteLine($"{ex.GetType()} says: {ex.Message} number was {number}.\n");
+}
+
+Person sam = new()
+{
+    Name = "Sam",
+    Born = new(1969, 6, 25, 0, 0, 0, TimeSpan.Zero)
+};
+
+WriteLine(sam.Origin);
+WriteLine(sam.Greeting);
+WriteLine(sam.Age);
+WriteLine();
+
+sam.Children.Add(new() { Name = "Charlie", Born = new(2010,3,18,0,0,0,TimeSpan.Zero) });
+sam.Children.Add(new() { Name = "Ella", Born = new(2020,12,24,0,0,0,TimeSpan.Zero) });
+
+// Get using Children List
+WriteLine($"Sam's first child is {sam.Children[0].Name}.");
+WriteLine($"Sam's second child is {sam.Children[1].Name}.\n");
+
+// Get using the int indexer
+WriteLine($"Sam's first child is {sam[0].Name}.");
+WriteLine($"Sam's second child is {sam[1].Name}.\n");
+
+// Get using the string indexer
+WriteLine($"Sam's child named Ella is {sam["Ella"].Age} years old.\n");
+
+sam.FavoriteIceCream = "Chocolate Fudge";
+WriteLine($"Sam's favorite ice-cream flavor is {sam.FavoriteIceCream}.\n");
+string color = "Red";
+
+try
+{
+    sam.FavoritePrimaryColor = color;
+    WriteLine($"Sam's favorite primary color is {sam.FavoritePrimaryColor}.\n");
+}
+catch (Exception ex)
+{
+    WriteLine($"Tried to set {0} to '{1}':  {2}", 
+        nameof(sam.FavoritePrimaryColor), color, ex.Message);
+}
+
+// An array containing a mix of passenger types
+Passenger[] passengers = {
+    new FirstClassPassenger {AirMiles = 1_419, Name = "Suman"},
+    new FirstClassPassenger { AirMiles = 16_562, Name = "Lucy"},
+    new BusinessClassPassenger {Name = "Janice"},
+    new CoachClassPassenger {CarryOnKG = 25.7, Name = "Dave"},
+    new CoachClassPassenger {CarryOnKG = 0, Name = "Amit"},
+};
+
+foreach (Passenger passenger in passengers)
+{
+    decimal flightCost = passenger switch
+    {
+        /*  C# 8 Syntax
+        FirstClassPassenger p when p.AirMiles > 35_000 => 1_500M,
+        FirstClassPassenger p when p.AirMiles > 15_000 => 1_700M,
+        FirstClassPassenger _                          => 2_000M,
+        */
+        // C# 9 or later syntax
+        FirstClassPassenger p => p.AirMiles switch
+        {
+            > 35_000 => 1_500M,
+            > 15_000 => 1_700M,
+            _        => 2_000M
+        },
+        BusinessClassPassenger                         => 1_000M,
+        CoachClassPassenger p when p.CarryOnKG < 10.0  => 500M,
+        CoachClassPassenger                            => 650M,
+        _                                              => 850M
+    };
+    WriteLine($"Flight costs {flightCost:C} for {passenger}");
+}
+
+ImmutablePerson jeff = new()
+{
+    FirstName = "Jeff",
+    LastName = "Winger"
+};
+//jeff.FirstName = "Jess";
+WriteLine();
+ImmutableVehicle car = new()
+{
+    Brand = "Mazda MX-5 RF",
+    Color = "Soul Red Crystal Metallic",
+    Wheels = 4
+};
+ImmutableVehicle repaintedCar = car
+    with { Color = "Polymetal Grey Metallic"};
+
+WriteLine($"Original car color was {car.Color}.");
+WriteLine($"New car color is {repaintedCar.Color}.\n");
+
+AnimalClass ac1 = new() {Name = "Rex"};
+AnimalClass ac2 = new() {Name = "Rex"};
+
+WriteLine($"ac1 == ac2: {ac1 == ac2}.\n"); // False due to reference equality
+
+AnimalRecord ar1 =  new() {Name = "Rex"};
+AnimalRecord ar2 =  new() {Name = "Rex"};
+
+WriteLine($"ar1 == ar2: {ar1 == ar2}.\n"); // True due to value equality
+
+ImmutableAnimal oscar = new("Oscar", "Labrador");
+var (who, what) = oscar; // Calls  the Deconstruct method
+WriteLine($"{who} is a {what}.\n");
+
+HeadSet vp = new("Apple", "Vision Pro");
+WriteLine($"{vp.ProductName} is made by {vp.Manufacturer}.\n");
+
+HeadSet holo = new();
+WriteLine($"{holo.ProductName} is made by {holo.Manufacturer}.\n");
+
+HeadSet mq = new() { Manufacturer = "Meta", ProductName = "Quest 3"};
+WriteLine($"{mq.ProductName} is made by {mq.Manufacturer}.\n");
 #endregion

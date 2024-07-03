@@ -1,6 +1,6 @@
 ﻿// All types in this file will be defined in this file-scoped namespace.
 namespace Packt.Shared;
-public class Person : object
+public partial class Person : object // Inherits from System.Object
 {
     #region Fields: Data or state for this person (class)
 
@@ -38,7 +38,7 @@ public class Person : object
     */
 
     public List<Person> Children = [];
-    public WondersOfTheAncientWorld FavoriteAncientWonder;
+    //public WondersOfTheAncientWorld FavoriteAncientWonder;
     public WondersOfTheAncientWorld BucketList;
 
     #endregion
@@ -147,5 +147,41 @@ public class Person : object
     {
         return ("Apples", 5);
     }
+
+    public (string Name, int Number) GetNamedFruit()
+    {
+        return (Name: "Apples", Number: 5);
+    }
+
+    //Deconstructors:  Break down this object into parts
+    public void Deconstruct(out string? name, out DateTimeOffset dob)
+    {
+        name = Name;
+        dob = Born;
+    }
+
+    public void Deconstruct(out string? name, out DateTimeOffset? dob, out WondersOfTheAncientWorld fav)
+    {
+        name = Name;
+        dob = Born;
+        fav = FavoriteAncientWonder;
+    }
+    
+    // Method with local function
+    public static int Factorial(int number)
+    {
+        if (number < 0)
+        {
+            throw new ArgumentException($"{nameof(number)} cannot be less than zero!");
+        }
+        return localFactorial(number);
+
+        int localFactorial(int localNumber) // local function
+        {
+            if (localNumber == 0) return 1;
+            return localNumber * localFactorial(localNumber - 1);
+        }
+    }
+   
     #endregion       
 }
