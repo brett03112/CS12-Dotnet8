@@ -1,8 +1,6 @@
-﻿using System.Runtime.CompilerServices;
+﻿namespace Packt.Shared;
 
-namespace Packt.Shared;
-
-public class Person
+public class Person : IComparable<Person?>
 {
     #region Properties
 
@@ -152,7 +150,7 @@ public class Person
     #region  Events
 
     // Delegate field to define the event
-    public EventHandler? Shout; // null initially
+    public event EventHandler? Shout; // null initially
 
     //Data field related to the event
     public int AngerLevel;
@@ -170,6 +168,41 @@ public class Person
             //... then call the delegate to "raise" the event
             Shout(this, EventArgs.Empty);
         }
+    }
+
+    public int CompareTo(Person? other)
+    {
+        int position;
+
+        if (other is not null)
+        {
+            if ((Name is not null) && (other.Name is not null))
+            {
+                // If both Name values are not null, then use the string implementation to CompareTo
+                position = Name.CompareTo(other.Name);
+            }
+            else if ((Name is not null) && (other.Name is null))
+            {
+                position = -1; // this Person precedes other Person
+            }
+            else if ((Name is null) && (other.Name is not null))
+            {
+                position = 1; // this Person follows other Person
+            }
+            else
+            {
+                position = 0; // this and other are at same position
+            }
+        }
+        else if (other is null)
+        {
+            position = -1; // this Person precedes other Person
+        }
+        else
+        {
+            position = 0; // this and other are at the same position
+        }
+        return position;
     }
     #endregion
 }

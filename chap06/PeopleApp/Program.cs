@@ -88,14 +88,42 @@ WriteLine(format: "Key {0} has a value: {1}.\n", arg0: key, arg1: lookupIntStrin
 
 #region Using Delegates
 // Assign the method to the Shout delegate
-harry.Shout = Harry_Shout;
+harry.Shout += Harry_Shout; // must use '+' if "event" is stated before the EventHandler in Person.cs
+harry.Shout += Harry_Shout_2;
 
 // Call the Poke method that eventually raises the Shout event.
 harry.Poke();
 harry.Poke();
 harry.Poke();
 harry.Poke();
+WriteLine();
+#endregion
+
+#region Interfaces
+Person?[] people = 
+{
+    null,
+    new() { Name = "Simon"},
+    new() { Name = "Jenny"},
+    new() { Name = "Adam" },
+    new() { Name = null },
+    new() { Name = "Richard" },
+};
+
+OutputPeopleNames(people, "Initial list of people:");
+
+//Array.Sort(people);
+
+/*
+This time, when we sort the people array, we explicitly ask the sorting algorithm to use the
+PersonComparer type instead so that the people are sorted with the shortest names first, like Adam,
+and the longest names last, like Richard, and when the lengths of two or more names are equal they
+are sorted alphabetically, like Jenny and Simon.*/
+
+Array.Sort(people, new PersonComparer());
 
 
+OutputPeopleNames(people,
+    "After sorting using PersonComparer's IComparer implementation: ");
 
 #endregion
