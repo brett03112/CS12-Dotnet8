@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "g7UOwHrKvVI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap07\\DotNetEveryWhere\\DotNetEveryWhere.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.7\\microsoft.netcore.app.runtime.win-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.7\\microsoft.netcore.app.runtime.linux-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\8.0.7\\microsoft.netcore.app.runtime.osx-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.7\\microsoft.netcore.app.runtime.win-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-arm64\\8.0.7\\microsoft.netcore.app.runtime.linux-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-arm64\\8.0.7\\microsoft.netcore.app.runtime.osx-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.7\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.7\\microsoft.aspnetcore.app.runtime.win-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.7\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\8.0.7\\microsoft.aspnetcore.app.runtime.osx-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.7\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-arm64\\8.0.7\\microsoft.aspnetcore.app.runtime.linux-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-arm64\\8.0.7\\microsoft.aspnetcore.app.runtime.osx-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.7\\microsoft.netcore.app.host.linux-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\8.0.7\\microsoft.netcore.app.host.osx-x64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\8.0.7\\microsoft.netcore.app.host.linux-arm64.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.osx-arm64\\8.0.7\\microsoft.netcore.app.host.osx-arm64.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

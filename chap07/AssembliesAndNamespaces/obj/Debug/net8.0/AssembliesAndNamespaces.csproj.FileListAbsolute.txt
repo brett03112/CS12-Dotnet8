@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\bin\Debug\net8.0\AssembliesAndNamespaces.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\bin\Debug\net8.0\AssembliesAndNamespaces.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\bin\Debug\net8.0\AssembliesAndNamespaces.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\bin\Debug\net8.0\AssembliesAndNamespaces.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\bin\Debug\net8.0\AssembliesAndNamespaces.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\refint\AssembliesAndNamespaces.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\AssembliesAndNamespaces.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\AssembliesAndNamespaces\obj\Debug\net8.0\ref\AssembliesAndNamespaces.dll

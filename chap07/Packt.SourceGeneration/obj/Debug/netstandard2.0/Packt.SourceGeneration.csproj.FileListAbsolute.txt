@@ -1,0 +1,11 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\bin\Debug\netstandard2.0\Packt.SourceGeneration.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\bin\Debug\netstandard2.0\Packt.SourceGeneration.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\bin\Debug\netstandard2.0\Packt.SourceGeneration.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.csproj.AssemblyReference.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\Packt.SourceGeneration\obj\Debug\netstandard2.0\Packt.SourceGeneration.pdb

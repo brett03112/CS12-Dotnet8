@@ -1,0 +1,1 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\DotNetEveryWhere\bin\Release\net8.0\win-x64\publish\DotNetEveryWhere.exe

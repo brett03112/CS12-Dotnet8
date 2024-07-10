@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\bin\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\bin\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\bin\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\bin\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\bin\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\refint\ConsoleApp.SourceGeneration.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ConsoleApp.SourceGeneration.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap07\artifacts\obj\ConsoleApp.SourceGeneration\debug\ref\ConsoleApp.SourceGeneration.dll
