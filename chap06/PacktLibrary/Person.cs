@@ -205,4 +205,49 @@ public class Person : IComparable<Person?>
         return position;
     }
     #endregion
+
+    #region Overridden Methods
+    public override string ToString()
+    {
+        return $"{Name} is a {base.ToString()}";
+    }
+
+    /*
+namespace Packt.Shared;
+
+public class Singer
+{
+    // Virtual allows this method to be overridden.
+    public virtual void Sing()
+    {
+        WriteLine("Singing...");
+    }
+}
+public class LadyGaga : Singer
+{
+    // The sealed keyword prevents overriding the method in subclasses.
+    public sealed override void Sing()
+    {
+        WriteLine("Singing with style...");
+    }
+}
+    
+    YOU CAN ONLY SEAL AN OVERRIDEN METHOD!!!
+    */
+
+    public void TimeTravel(DateTime when)
+    {
+        if (when <= Born)
+        {
+            throw new PersonException("If you travel back in time to a date earlier than your own birth," +
+                " then the universe will explode!");
+        }
+        else
+        {
+            WriteLine($"Welcome to {when:yyyy}!");
+        }
+    }
+
+
+    #endregion
 }

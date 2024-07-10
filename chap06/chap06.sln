@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\Peop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibrary", "PacktLibrary\PacktLibrary.csproj", "{451BB428-CAF2-4E4B-B56B-50BF115DCFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullHandling", "NullHandling\NullHandling.csproj", "{AE8BF7A3-0141-44EF-B97A-6D3FB3EFEF5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceExercise", "InheritanceExercise\InheritanceExercise.csproj", "{3056B02C-1F42-4137-9058-BB7ADC5B24F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{451BB428-CAF2-4E4B-B56B-50BF115DCFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{451BB428-CAF2-4E4B-B56B-50BF115DCFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{451BB428-CAF2-4E4B-B56B-50BF115DCFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8BF7A3-0141-44EF-B97A-6D3FB3EFEF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8BF7A3-0141-44EF-B97A-6D3FB3EFEF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8BF7A3-0141-44EF-B97A-6D3FB3EFEF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8BF7A3-0141-44EF-B97A-6D3FB3EFEF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3056B02C-1F42-4137-9058-BB7ADC5B24F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3056B02C-1F42-4137-9058-BB7ADC5B24F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3056B02C-1F42-4137-9058-BB7ADC5B24F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3056B02C-1F42-4137-9058-BB7ADC5B24F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
