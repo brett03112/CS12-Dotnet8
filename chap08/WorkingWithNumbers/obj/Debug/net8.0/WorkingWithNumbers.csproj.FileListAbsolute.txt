@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\bin\Debug\net8.0\WorkingWithNumbers.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\bin\Debug\net8.0\WorkingWithNumbers.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\bin\Debug\net8.0\WorkingWithNumbers.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\bin\Debug\net8.0\WorkingWithNumbers.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\bin\Debug\net8.0\WorkingWithNumbers.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\refint\WorkingWithNumbers.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\WorkingWithNumbers.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithNumbers\obj\Debug\net8.0\ref\WorkingWithNumbers.dll
