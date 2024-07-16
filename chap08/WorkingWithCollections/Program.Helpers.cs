@@ -9,4 +9,29 @@ partial class Program
                 WriteLine($" {item}");
             }
         }
+
+    private static void OutputPQ<TElement, TPriority>(
+        string title, IEnumerable<(TElement Element, TPriority Priority)> collection)
+    {
+       foreach ((TElement, TPriority) item in collection)
+       {
+            WriteLine($" {item.Item1}: {item.Item2}");
+       }
+    }
+
+    private static void UseDictionary(IDictionary<string, string> dictionary)
+    {
+        WriteLine($"Count before is {dictionary.Count}");
+        try
+        {
+            WriteLine("Adding new item GUID values.");
+            // Add method with return type of void
+            dictionary.Add(key: Guid.NewGuid().ToString(), value: Guid.NewGuid().ToString());
+        }
+        catch (NotSupportedException)
+        {
+            WriteLine("This dictionary does not support the ADD method.");
+        }
+        WriteLine($"Count after is {dictionary.Count}.");
+    }
 }

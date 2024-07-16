@@ -11,3 +11,4 @@ build_property.RootNamespace = WorkingWithCollections
 build_property.ProjectDir = C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap08\WorkingWithCollections\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
