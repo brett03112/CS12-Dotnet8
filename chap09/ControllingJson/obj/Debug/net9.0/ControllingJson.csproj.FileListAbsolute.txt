@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\bin\Debug\net9.0\ControllingJson.exe
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\bin\Debug\net9.0\ControllingJson.deps.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\bin\Debug\net9.0\ControllingJson.runtimeconfig.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\bin\Debug\net9.0\ControllingJson.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\bin\Debug\net9.0\ControllingJson.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.AssemblyInfo.cs
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.sourcelink.json
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\refint\ControllingJson.dll
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.pdb
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ControllingJson.genruntimeconfig.cache
+C:\Users\brett\Documents\cSharp\cs12dotnet8\my_code\chap09\ControllingJson\obj\Debug\net9.0\ref\ControllingJson.dll

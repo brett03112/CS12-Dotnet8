@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AiUN5HXDYBQ=",
+  "dgSpecHash": "7AdAUIn/g10=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\WorkingWithFileSystems\\WorkingWithFileSystems.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.5\\microsoft.netcore.app.ref.8.0.5.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.5\\microsoft.windowsdesktop.app.ref.8.0.5.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.5\\microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.5\\microsoft.netcore.app.host.win-x64.8.0.5.nupkg.sha512"
+    "C:\\Users\\brett\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
   ],
   "logs": []
 }

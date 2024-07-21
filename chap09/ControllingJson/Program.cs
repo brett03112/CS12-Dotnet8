@@ -1,0 +1,54 @@
+﻿using System.Text.Json; // To use JsonSerializer
+
+using Packt.Shared; // To use Book
+
+Book csharpBook = new(title:
+    "C# 12 and .NET 8 - Modern Cross-Platform Development Fundamentals")
+{
+    Author = "Mark J. Price",
+    PublishDate = new(year: 2023, month: 11, day: 14),
+    Pages = 823,
+    Created = DateTimeOffset.UtcNow,
+};
+
+JsonSerializerOptions options = new()
+{
+    //IncludeFields = true, // Includes all fields.
+    //PropertyNameCaseInsensitive = true,
+    //WriteIndented = true,
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+};
+
+string path = Combine(CurrentDirectory, "book.json");
+
+using (Stream fileStream = File.Create(path))
+{
+    JsonSerializer.Serialize(
+    utf8Json: fileStream, value: csharpBook, options);
+}
+
+WriteLine("**** File Info ****");
+WriteLine($"File: {GetFileName(path)}");
+WriteLine($"Path: {GetDirectoryName(path)}");
+WriteLine($"Size: {new FileInfo(path).Length:N0} bytes.");
+WriteLine("/------------------");
+WriteLine(File.ReadAllText(path));
+WriteLine("------------------/");
+
+/*
+• The JSON file is 221 bytes.
+• The member names use camelCasing, for example, publishDate. This is best for subsequent processing in a browser with JavaScript.
+• All fields are included due to the options set, including pages.
+• JSON is prettified for easier human legibility.
+• DateTime and DateTimeOffset values are stored as a single standard string format.
+*/
+
+/*
+----- If you comment out the setting of a casing policy, write with an indent, and include fields 
+in the JsonSerializerOptions, you will see that the JSON file is about 20% smaller.
+
+• The JSON file has about a 20% reduction.
+• The member names use normal casing, for example, PublishDate.
+• The Pages field is missing. The other fields are included due to the [JsonInclude]
+  attribute on the PublishDate and Created fields.
+*/
