@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+YO4ZM3dfMI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\WorkingWithEnvVars\\WorkingWithEnvVars.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brett\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
