@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\",
+  "WorkspaceRootPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33A1B805-3176-424D-BEFF-74C8F37EDED6}|WorkingWithFileSystems\\WorkingWithFileSystems.csproj|c:\\users\\brett\\documents\\csharp\\cs12dotnet8\\my_code\\chap09\\workingwithfilesystems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B805-3176-424D-BEFF-74C8F37EDED6}|WorkingWithFileSystems\\WorkingWithFileSystems.csproj|solutionrelative:workingwithfilesystems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33A1B805-3176-424D-BEFF-74C8F37EDED6}|WorkingWithFileSystems\\WorkingWithFileSystems.csproj|c:\\users\\brett\\documents\\csharp\\cs12dotnet8\\my_code\\chap09\\workingwithfilesystems\\program.helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33A1B805-3176-424D-BEFF-74C8F37EDED6}|WorkingWithFileSystems\\WorkingWithFileSystems.csproj|solutionrelative:workingwithfilesystems\\program.helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F18E3B04-2FD3-4AF7-BA4D-8AADE2BA7D64}|WorkingWithEnvVars\\WorkingWithEnvVars.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap09\\workingwithenvvars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18E3B04-2FD3-4AF7-BA4D-8AADE2BA7D64}|WorkingWithEnvVars\\WorkingWithEnvVars.csproj|solutionrelative:workingwithenvvars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\WorkingWithFileSystems\\Program.cs",
-              "RelativeDocumentMoniker": "WorkingWithFileSystems\\Program.cs",
-              "ToolTip": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\WorkingWithFileSystems\\Program.cs",
-              "RelativeToolTip": "WorkingWithFileSystems\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap09\\WorkingWithEnvVars\\Program.cs",
+              "RelativeDocumentMoniker": "WorkingWithEnvVars\\Program.cs",
+              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap09\\WorkingWithEnvVars\\Program.cs",
+              "RelativeToolTip": "WorkingWithEnvVars\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:07:56.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.Helpers.cs",
-              "DocumentMoniker": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\WorkingWithFileSystems\\Program.Helpers.cs",
-              "RelativeDocumentMoniker": "WorkingWithFileSystems\\Program.Helpers.cs",
-              "ToolTip": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap09\\WorkingWithFileSystems\\Program.Helpers.cs",
-              "RelativeToolTip": "WorkingWithFileSystems\\Program.Helpers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:07:44.414Z",
+              "WhenOpened": "2024-07-23T16:54:22.806Z",
               "EditorCaption": ""
             }
           ]
