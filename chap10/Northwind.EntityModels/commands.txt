@@ -1,0 +1,42 @@
+Enter the following command in on a PS terminal:
+
+"dotnet ef dbcontext scaffold "Data Source=Northwind.db" Microsoft.
+EntityFrameworkCore.Sqlite --table Categories --table Products --outputdir AutoGenModels 
+--namespace WorkingWithEFCore.AutoGen --dataannotations --context NorthwindDb"
+
+• The command action: dbcontext scaffold
+
+• The connection string: "Data Source=Northwind.db"
+
+• The database provider: Microsoft.EntityFrameworkCore.Sqlite
+
+• The tables to generate models for: --table Categories --table Products
+
+
+• The namespace: --namespace WorkingWithEFCore.AutoGen
+
+• To use data annotations as well as the Fluent API: --data-annotations
+
+• To rename the context from [database_name]Context: --context NorthwindDb
+
+_____________________________________________________________________________________________________________________
+NOTE THE BUILD MESSAGES----
+
+"""
+Build started...
+
+Build succeeded.
+
+To protect potentially sensitive information in your connection string,
+you should move it out of source code. You can avoid scaffolding the
+connection string by using the Name= syntax to read it from configuration
+
+- see https://go.microsoft.com/fwlink/?linkid=2131148. For more
+guidance on storing connection strings, see http://go.microsoft.com/
+fwlink/?LinkId=723263.
+
+Skipping foreign key with identity '0' on table 'Products' since
+principal table 'Suppliers' was not found in the model. This usually
+happens when the principal table was not included in the selection set.
+
+""
