@@ -1,6 +1,6 @@
 ﻿using Northwind.EntityModels;
 
-#region Defining the Northwind database context class
+#region Defining the Northwind database context class and querying the database
 
 
 //using NorthwindDb db = new();
@@ -10,10 +10,10 @@
 ConfigureConsole();
 WriteLine("");
 
-QueryingCategories();
+//QueryingCategories();
 WriteLine("");
 
-FilterIncludes();
+//FilterIncludes();
 WriteLine("");
 
 #endregion
@@ -73,5 +73,45 @@ Name = "UnitPrice")]
                                         array of objects. For example, "alpha", "beta",
                                         "gamma", or 1, 2, 3.
 */
+
+#endregion
+
+#region Querying EF Core models
+
+//QueryingProducts();
+WriteLine("");
+
+#endregion
+
+#region Logging EF Core models
+
+/*
+Good Practice: By default, EF Core logging will exclude any data that is sensitive. You
+can include this data by calling the EnableSensitiveDataLogging method, especially
+during development. You should disable it before deploying to production. You can also
+call EnableDetailedErrors.
+*/
+
+//GettingOneProduct();
+WriteLine("");
+
+QueryingWithLike();
+WriteLine("");
+
+//GetRandomProduct();
+WriteLine("");
+#endregion
+
+#region Loading and tracking patterns with EF Core
+/*
+There are three loading patterns that are commonly used with EF Core:
+_______________________________________________________________________
+• Eager loading: Load data early.
+
+• Lazy loading: Load data automatically just before it is needed.
+
+• Explicit loading: Load data manually
+*/
+
 
 #endregion
