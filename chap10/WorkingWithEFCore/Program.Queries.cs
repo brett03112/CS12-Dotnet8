@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore; // To use Include method
 using Northwind.EntityModels; // To use Northwind, Category, Product
+using Microsoft.EntityFrameworkCore.ChangeTracking; // To use CollectionEntry
 
 partial class Program
 {
@@ -11,8 +12,26 @@ partial class Program
         SectionTitle("Categories and how many products they have");
 
         // Query to get all categories and their products
-        IQueryable<Category>? categories = db.Categories?
-            .Include(c => c.Products);
+        IQueryable<Category>? categories;// = db.Categories;
+            //.Include(c => c.Products);
+        
+        db.ChangeTracker.LazyLoadingEnabled = false;
+
+        Write("Enable eager loading? (Y/N): ");
+        bool eagerLoading = (ReadKey().Key == ConsoleKey.Y);
+        bool explicitLoading = false;
+        WriteLine();
+        if (eagerLoading)
+        {
+            categories = db.Categories?.Include(c => c.Products);
+        }
+        else
+        {
+            categories = db.Categories;
+            Write("Enable explicit loading? (Y/N): ");
+            explicitLoading = (ReadKey().Key == ConsoleKey.Y);
+            WriteLine();
+        }
 
         if (categories is null || !categories.Any())
         {
@@ -22,6 +41,20 @@ partial class Program
 
         foreach (Category c in categories)
         {
+            if (explicitLoading)
+            {
+                Write($"Explicitly load products for {c.CategoryName}? (Y/N): ");
+                ConsoleKeyInfo key = ReadKey();
+                WriteLine();
+
+                if (key.Key == ConsoleKey.Y)
+                {
+                    CollectionEntry<Category,Product> products = 
+                        db.Entry(c).Collection(c2 => c2.Products);
+                    
+                    if (!products.IsLoaded) products.Load();
+                }
+            }
             WriteLine($"{c.CategoryName} has {c.Products.Count} products");
         }
     }
@@ -185,5 +218,26 @@ partial class Program
         }
 
         WriteLine($"Random product: {p.ProductId} - {p.ProductName}");
+    }
+
+    private static void LazyLoadingWithNoTracking()
+    {
+        using NorthwindDb db = new();
+
+        SectionTitle("Lazy-loading with no tracking");
+
+        IQueryable<Product>? products = db.Products?.AsNoTracking();
+
+        if (products is null || !products.Any())
+        {
+            Fail("No products found.");
+            return;
+        }
+
+        foreach (Product p in products)
+        {
+            WriteLine("{0} is in category named {1}.",
+                p.ProductName, p.Category.CategoryName);
+        }
     }
 }

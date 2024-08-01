@@ -35,6 +35,7 @@ set the database connection string.
                 .EnableDetailedErrors()
             #endif
             ;
+            //optionsBuilder.UseLazyLoadingProxies();
             /*
             LogTo requires an Action<string> delegate. EF Core will call this delegate, passing a 
             string value for each log message. Passing the Console class WriteLine
