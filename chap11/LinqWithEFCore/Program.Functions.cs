@@ -129,4 +129,52 @@ partial class Program
         execute more complex processing in memory. But, often, this is less efficient.
         */
     }
+
+    private static void ProductsLookup()
+    {
+        SectionTitle("Products lookup");
+
+        using NorthwindDb db = new();
+
+        // Join all products to their category to return 77 matches
+        var productQuery = db.Categories.Join(
+            inner: db.Products,
+            outerKeySelector: category => category.CategoryId,
+            innerKeySelector: product => product.CategoryId,
+            resultSelector: (c, p) => new { c.CategoryName, Product = p });
+        
+        ILookup<string, Product> productLookup = productQuery.ToLookup(
+            keySelector: cp => cp.CategoryName,
+            elementSelector: cp => cp.Product);
+        
+        foreach (IGrouping<string, Product> group in productLookup)
+        {
+            // Key is Beverages, Condiments, and so on
+            WriteLine($"{group.Key} has {group.Count()} products");
+
+            foreach (Product product in group)
+            {
+                WriteLine($" {product.ProductName}");
+            }
+        }
+
+        // We can look up the products by a category name
+        Write("Enter a category name: ");
+        string categoryName = ReadLine()!;
+        WriteLine();
+        WriteLine($"Products in {categoryName}: ");
+
+        IEnumerable<Product> productsInCategory = productLookup[categoryName];
+        foreach (Product product in productsInCategory)
+        {
+            WriteLine($" {product.ProductName}");
+        }
+
+        /*
+        Selector parameters are lambda expressions that select sub-elements for different
+        purposes. For example, ToLookup has a keySelector to select the part of each
+        item that will be the key and an elementSelector to select the part of each item
+        that will be the value.
+        */
+    }
 }
