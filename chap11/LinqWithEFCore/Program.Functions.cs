@@ -177,4 +177,160 @@ partial class Program
         that will be the value.
         */
     }
+
+    private static void AggregateProducts()
+    {
+        SectionTitle("Aggregate products");
+
+        using NorthwindDb db = new();
+
+        // Try to get an efficient count from EF Core EbSet<T>
+        if (db.Products.TryGetNonEnumeratedCount(out int countDbSet))
+        {
+            WriteLine($"{"Product count from DbSet: ", -25} {countDbSet,10}");
+        }
+        else
+        {
+            WriteLine("Products DbSet does not have a Count property.");
+        }
+
+        // Try to get an efficient count from a List<T>
+        List<Product> products = db.Products.ToList();
+
+        if (products.TryGetNonEnumeratedCount(out int countList))
+        {
+            WriteLine($"{"Product count from list: ", -25} {countList,10}");
+        }
+        else
+        {
+            WriteLine("Products list does not have a Count property.");
+        }
+
+        WriteLine($"{"Product count: ", -25} {db.Products.Count(),10}");
+
+        WriteLine($"{"Discontinued product count: ", -27} {db.Products.Count(product => product.Discontinued), 8}");
+
+        WriteLine($"{"Highest product price: ", -25} {db.Products.Max(p => p.UnitPrice), 10:$#,##0.00}");
+
+        WriteLine($"{"Sum of units in stock: ", -25} {db.Products.Sum(p => p.UnitsInStock), 10:N0}");
+
+        WriteLine($"{"Sum of units on order: ", -25} {db.Products.Sum(p => p.UnitsOnOrder), 10:N0}");
+
+        WriteLine($"{"Average price: ", -25} {db.Products.Average(p => p.UnitPrice), 10:$#,##0.00}");
+
+        WriteLine($"{"Value of units in stock: ", -25} {db.Products.Sum(p => p.UnitPrice * p.UnitsInStock), 10:$#,##0.00}");
+
+
+    }
+    /*
+    ********************What does this code do?************************************************
+    IEnumerable<Task> tasks = Enumerable.Range(0, 2)
+        .Select(_ => Task.Run(() => Console.WriteLine("*")));
+
+    await Task.WhenAll(tasks);
+
+    Console.WriteLine($"{tasks.Count()} stars!");
+        ------------->>>>>>>>>>>>   **2 stars!
+                                    **2 stars!**
+                                    ****2 stars!
+                                    <Something else> ------------->>>> the correct answer
+
+    */
+    /*
+    Code                                Description
+    ___________________________________________________________________________________________________
+
+    Enumerable.Range(0, 2)              Returns a sequence of two integers, 0 and 1. In production code, you
+                                        should add named parameters to make this clearer, as shown in the
+                                        following code: Enumerable.Range(start: 0, count: 2).
+
+    Select(_ => Task.                   Creates a task with its own thread for each of the two numbers. The _
+    Run(...)                            parameter discards the number value. Each task outputs a star * to the console.
+
+    await Task.                         Blocks the main thread until both of the two tasks have completed. So,
+    WhenAll(tasks);                     at this point, we know that two stars ** have been output to the console.
+
+    tasks.Count()                       For the LINQ Count() extension method to work in this scenario, it must
+                                        enumerate the sequence.  THis triggers the two tasks to execute again!
+                                        But we do not know when they will execute.  The value 2 is returned from the
+                                        method call.
+
+    Console.WriteLine($"... stars!");   The "2 stars!" are output to the console.                                                   
+    */
+
+    // a method to output to the console a table of products passed as an array
+    private static void OutputTableOfProducts(Product[] products,
+        int currentPage, int totalPages)
+    {
+        string line = new('-', count: 73);
+        string lineHalf =  new('-', count: 30);
+
+        WriteLine(line);
+
+        WriteLine("{0,4} {1,-40} {2,12} {3, -15}", "ID", "Product Name",
+            "Unit Price", "Discontinued");
+
+        WriteLine(line);
+        foreach (Product p in products)
+        {
+            WriteLine("{0,4} {1,-40} {2,12:C} {3, -15}",
+                p.ProductID, p.ProductName, p.UnitPrice, p.Discontinued);
+        }
+        WriteLine("{0} Page {1} of {2} {3}", lineHalf, currentPage + 1,
+                totalPages + 1, lineHalf);
+    }
+
+    // Add a method to create a LINQ query that creates a page of products,
+    // outputs the SQL generated from it, and then passes the results as an array of 
+    // products to the method that outputs the table of products
+    private static void OutputPageOfProducts(IQueryable<Product> products,
+        int pageSize, int currentPage, int totalPages)
+    {
+        // We must order data before skipping and taking to ensure 
+        // the data is not randomly sorted in each page
+        var pagingQuery = products.OrderBy(p => p.ProductID)
+            .Skip(currentPage * pageSize).Take(pageSize);
+
+        Clear(); 
+
+        //SectionTitle(pagingQuery.ToQueryString());
+
+        OutputTableOfProducts(pagingQuery.ToArray(), currentPage, totalPages);    
+    }
+    /*
+    In Program.Functions.cs, add a method to loop while the user presses either the left or right
+    arrow to page through the products in the database, showing one page at a time
+    */
+     private static void PagingProducts()
+    {
+        SectionTitle("Paging products");
+        using NorthwindDb db = new();
+        int pageSize = 10;
+        int currentPage = 0;
+        int productCount = db.Products.Count();
+        int totalPages = productCount / pageSize;
+        while (true) // Use break to escape this infinite loop.
+        {
+            OutputPageOfProducts(db.Products, pageSize, currentPage, totalPages);
+
+            Write("Press <- to page back, press -> to page forward, any key to exit.");
+
+            ConsoleKey key = ReadKey().Key;
+            
+            if (key == ConsoleKey.LeftArrow)
+            {
+                currentPage = currentPage == 0 ? totalPages : currentPage - 1;
+            }
+            else if (key == ConsoleKey.RightArrow)
+            {
+                currentPage = currentPage == totalPages ? 0 : currentPage + 1;
+            }
+            else
+            {
+                break;
+            }
+
+            WriteLine();
+        }
+    }
 }

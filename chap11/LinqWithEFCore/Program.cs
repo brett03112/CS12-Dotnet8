@@ -7,4 +7,8 @@ ConfigureConsole(); // sets to en-US by default
 
 //GroupJoinCategoriesAndProducts();
 
-ProductsLookup();
+//ProductsLookup();
+
+//AggregateProducts();
+
+PagingProducts();
