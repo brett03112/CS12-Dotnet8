@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
+      "projectUniqueName": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
       "projectName": "Northwind.EntityModels",
-      "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
+      "projectPath": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\obj\\",
+      "outputPath": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,20 +67,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.5, 8.0.5]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.5, 8.0.5]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.5, 8.0.5]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
