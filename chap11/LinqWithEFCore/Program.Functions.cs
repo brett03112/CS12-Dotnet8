@@ -139,8 +139,8 @@ partial class Program
         // Join all products to their category to return 77 matches
         var productQuery = db.Categories.Join(
             inner: db.Products,
-            outerKeySelector: category => category.CategoryId,
-            innerKeySelector: product => product.CategoryId,
+            outerKeySelector: category => category.CategoryID,
+            innerKeySelector: product => product.CategoryID,
             resultSelector: (c, p) => new { c.CategoryName, Product = p });
         
         ILookup<string, Product> productLookup = productQuery.ToLookup(

@@ -178,3 +178,12 @@ C:/Users/brett/Documents/csharp/CS12-Dotnet8/chap11/LinqWithEFCore/obj/Debug/net
 /workspaces/CS12-Dotnet8/chap11/LinqWithEFCore/obj/Debug/net8.0/LinqWithEFCore.pdb
 /workspaces/CS12-Dotnet8/chap11/LinqWithEFCore/obj/Debug/net8.0/LinqWithEFCore.genruntimeconfig.cache
 /workspaces/CS12-Dotnet8/chap11/LinqWithEFCore/obj/Debug/net8.0/ref/LinqWithEFCore.dll
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.csproj.AssemblyReference.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.AssemblyInfo.cs
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.sourcelink.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.dll
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\refint\LinqWithEFCore.dll
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap11\LinqWithEFCore\obj\Debug\net8.0\LinqWithEFCore.pdb
