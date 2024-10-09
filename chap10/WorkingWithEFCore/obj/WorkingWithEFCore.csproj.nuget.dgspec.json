@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj": {}
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj": {
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
         "projectName": "Northwind.EntityModels",
-        "projectPath": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
+        "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\obj\\",
+        "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -60,23 +61,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.7, 8.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj": {
+    "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj",
         "projectName": "WorkingWithEFCore",
-        "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj",
+        "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\WorkingWithEFCore\\WorkingWithEFCore.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\WorkingWithEFCore\\obj\\",
+        "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\WorkingWithEFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj": {
-                "projectPath": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj"
+              "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj": {
+                "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj"
               }
             }
           }
@@ -113,7 +128,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -145,12 +161,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.7, 8.0.7]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.7, 8.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

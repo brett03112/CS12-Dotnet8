@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RjdlT1BkToI=",
+  "dgSpecHash": "eky5x9oIyHU=",
   "success": true,
-  "projectFilePath": "c:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap10\\Northwind.EntityModels\\Northwind.EntityModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.7\\microsoft.netcore.app.ref.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.7\\microsoft.windowsdesktop.app.ref.8.0.7.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.7\\microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3092,19 +3092,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap11\\LinqWithEFCore\\LinqWithEFCore.csproj",
       "projectName": "LinqWithEFCore",
       "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap11\\LinqWithEFCore\\LinqWithEFCore.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap11\\LinqWithEFCore\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap11\\LinqWithEFCore\\LinqWithEFCore.csproj",
-      "projectName": "LinqWithEFCore",
-      "projectPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap11\\LinqWithEFCore\\LinqWithEFCore.csproj",
-      "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\cSharp\\cs12dotnet8\\my_code\\chap11\\LinqWithEFCore\\obj\\",
->>>>>>> 8a12ef32d9158b5ad41f2e4612db988561f10b93
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

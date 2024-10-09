@@ -11,3 +11,4 @@ build_property.RootNamespace = PeopleApp
 build_property.ProjectDir = C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap05\PeopleApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0

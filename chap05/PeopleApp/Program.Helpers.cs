@@ -8,13 +8,13 @@ partial class Program
     /// <param name="culuture"></param>
     /// <param name="useComputerCulture"></param>
     /// <param name="showCulture"></param>
-    private static void ConfigureConsole(string culuture = "en-US", bool useComputerCulture = false, bool showCulture = true)
+    private static void ConfigureConsole(string culture = "en-US", bool useComputerCulture = false, bool showCulture = true)
     {
         OutputEncoding = System.Text.Encoding.UTF8;
 
         if (!useComputerCulture)
         {
-            CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo(culuture);
+            CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo(culture);
         }
 
         if (showCulture)

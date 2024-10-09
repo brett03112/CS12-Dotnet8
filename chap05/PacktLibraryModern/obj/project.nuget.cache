@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9htY3H4TcaQ=",
+  "dgSpecHash": "AEfYPvXVOQE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryModern\\PacktLibraryModern.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap05\\PacktLibraryModern\\PacktLibraryModern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.5\\microsoft.netcore.app.ref.8.0.5.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.5\\microsoft.windowsdesktop.app.ref.8.0.5.nupkg.sha512",
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.5\\microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
