@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "59qHTgcJWLg=",
+  "dgSpecHash": "qhzk0J3u5Ss=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Northwind.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\brett\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-rc.2.24474.11\\microsoft.net.sdk.compilers.toolset.9.0.100-rc.2.24474.11.nupkg.sha512"
+  ],
   "logs": []
 }

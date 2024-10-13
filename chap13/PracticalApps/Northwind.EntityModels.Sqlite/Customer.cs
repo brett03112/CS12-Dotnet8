@@ -5,7 +5,27 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 namespace Northwind.EntityModels;
+/*
+This C# code defines a Customer class, which represents a customer entity in a database.
 
+The class has several properties, such as CustomerId, CompanyName, ContactName, Address, etc., 
+each with specific data type and length constraints.
+
+The [Index] attributes on the class level specify that the City, CompanyName, PostalCode, and 
+Region columns should be indexed in the database for faster querying.
+
+The [Key] attribute on the CustomerId property indicates that it is the primary key of the table.
+
+The [Required] attribute on the CompanyName property means that this field cannot be null.
+
+The [Column] and [StringLength] attributes specify the data type and length of each column in the database.
+
+The [RegularExpression] attribute on the CustomerId property ensures that it only contains 5 uppercase letters.
+
+The [InverseProperty] attribute on the Orders property establishes a relationship between the Customer 
+and Order entities, indicating that a customer can have multiple orders.
+
+*/
 [Index("City", Name = "City")]
 [Index("CompanyName", Name = "CompanyNameCustomers")]
 [Index("PostalCode", Name = "PostalCodeCustomers")]

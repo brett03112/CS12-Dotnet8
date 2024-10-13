@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36E4D826-D703-4A4B-AE95-5CFF0D0441C6}|Northwind.EntityModels.Sqlite\\Northwind.EntityModels.Sqlite.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.entitymodels.sqlite\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4D826-D703-4A4B-AE95-5CFF0D0441C6}|Northwind.EntityModels.Sqlite\\Northwind.EntityModels.Sqlite.csproj|solutionrelative:northwind.entitymodels.sqlite\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.web\\pages\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|solutionrelative:northwind.web\\pages\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.web\\pages\\suppliers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|solutionrelative:northwind.web\\pages\\suppliers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.EntityModels.Sqlite\\Category.cs",
-              "RelativeDocumentMoniker": "Northwind.EntityModels.Sqlite\\Category.cs",
-              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.EntityModels.Sqlite\\Category.cs",
-              "RelativeToolTip": "Northwind.EntityModels.Sqlite\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Suppliers.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml.cs",
+              "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Suppliers.cshtml.cs",
+              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml.cs",
+              "RelativeToolTip": "Northwind.Web\\Pages\\Suppliers.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T20:31:49.118Z",
+              "WhenOpened": "2024-10-13T01:31:02.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Suppliers.cshtml",
+              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml",
+              "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Suppliers.cshtml",
+              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml",
+              "RelativeToolTip": "Northwind.Web\\Pages\\Suppliers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T01:30:44.167Z",
               "EditorCaption": ""
             }
           ]

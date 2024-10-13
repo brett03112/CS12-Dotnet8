@@ -1,0 +1,40 @@
+﻿@page
+@model Northwind.Web.Pages.SuppliersModel
+@*This is a Razor page in an ASP.NET Core application. It displays a table of supplier company names.
+
+Here's a breakdown:
+
+@page indicates that this is a Razor page.
+
+@model Northwind.Web.Pages.SuppliersModel specifies the model class that provides data for this page.
+
+The HTML code creates a table with a header row containing "Company Name".
+
+If the Suppliers property of the model is not null, the code loops through each supplier name and 
+adds a table row with the name.
+
+In essence, this code snippet is a simple Razor page that displays a list of supplier company names, 
+assuming the data is provided by the SuppliersModel class.
+*@
+
+<div class="row">
+    <h1 class="display-2">Suppliers</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Company Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Suppliers is not null)
+            {
+                @foreach (string name in Model.Suppliers)
+                {
+                    <tr>
+                        <td>@name</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

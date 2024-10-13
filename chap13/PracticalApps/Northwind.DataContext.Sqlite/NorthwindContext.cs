@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Northwind.EntityModels;
 
 /*
-    Class Definition: The NorthwindContext class is a partial class that inherits from DbContext, which is a base class 
+    ***Class Definition: The NorthwindContext class is a partial class that inherits from DbContext, which is a base class 
         for Entity Framework Core. It represents a database context for the Northwind database.
 
     Methods:
