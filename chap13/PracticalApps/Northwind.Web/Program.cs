@@ -1,4 +1,6 @@
 using Northwind.EntityModels; // To add NorthwindContext method
+using Microsoft.AspNetCore.Server.Kestrel.Core; // To use HttpProtocols
+using static System.Console;
 
 #region Configure the web server host and services
 
@@ -6,6 +8,37 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
 builder.Services.AddNorthwindContext(); // To add NorthwindContext method
+
+
+builder.Services.AddRequestDecompression(); // Added to support HTTP/3
+
+// Added to support HTTP/3. In appsettings.json added: "Microsoft.AspNetCore.Hosting.Diagnostics": "Information"
+/*
+Configuring Kestrel to Support HTTP/3
+
+This code snippet configures the Kestrel web server to support HTTP/3, in addition to HTTP/1 and HTTP/2. 
+It also enables HTTPS, which is required for HTTP/3.
+
+Here's a breakdown:
+
+builder.WebHost.ConfigureKestrel:   Configures the Kestrel web server.
+
+options.ConfigureEndpointDefaults:  Sets default options for all endpoints.
+listenOptions.Protocols = HttpProtocols.Http1AndHttp2AndHttp3:  Enables support for HTTP/1, HTTP/2, and HTTP/3.
+
+listenOptions.UseHttps():           Enables HTTPS, which is required for HTTP/3.
+
+By setting these options, the web server will be able to handle requests using all three HTTP 
+versions and will require secure connections for HTTP/3.
+*/
+builder.WebHost.ConfigureKestrel((context, options) =>
+{
+  options.ConfigureEndpointDefaults(listenOptions =>
+  {
+    listenOptions.Protocols = HttpProtocols.Http1AndHttp2AndHttp3;
+    listenOptions.UseHttps(); // HTTP/3 requires secure connections.
+  });
+});
 
 var app = builder.Build();
 
@@ -97,6 +130,8 @@ app.Use(async (HttpContext context, Func<Task> next) =>
 });
 
 app.UseHttpsRedirection();
+
+app.UseRequestDecompression();
 
 app.UseDefaultFiles(); // Must come before UseStaticFiles! index.html default.html etc.
 app.UseStaticFiles();

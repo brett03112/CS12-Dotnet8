@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GizoMk6MakM=",
+  "dgSpecHash": "uxqkL1jF7X0=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Northwind.Web.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,7 @@
     "C:\\Users\\brett\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-rc.2.24474.11\\microsoft.net.sdk.compilers.toolset.9.0.100-rc.2.24474.11.nupkg.sha512"
+    "C:\\Users\\brett\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.web\\pages\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|solutionrelative:northwind.web\\pages\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87D7F78E-3EE9-4400-96C4-F7EDFD219E8F}|Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.razor.employees\\areas\\packtfeatures\\pages\\employeeslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87D7F78E-3EE9-4400-96C4-F7EDFD219E8F}|Northwind.Razor.Employees\\Northwind.Razor.Employees.csproj|solutionrelative:northwind.razor.employees\\areas\\packtfeatures\\pages\\employeeslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.web\\pages\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Orders.cshtml",
-              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Orders.cshtml",
-              "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Orders.cshtml",
-              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Orders.cshtml",
-              "RelativeToolTip": "Northwind.Web\\Pages\\Orders.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Title": "EmployeesList.cshtml",
+              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Razor.Employees\\Areas\\PacktFeatures\\Pages\\EmployeesList.cshtml",
+              "RelativeDocumentMoniker": "Northwind.Razor.Employees\\Areas\\PacktFeatures\\Pages\\EmployeesList.cshtml",
+              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Razor.Employees\\Areas\\PacktFeatures\\Pages\\EmployeesList.cshtml",
+              "RelativeToolTip": "Northwind.Razor.Employees\\Areas\\PacktFeatures\\Pages\\EmployeesList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T12:50:37.667Z",
+              "WhenOpened": "2024-10-15T16:02:23.943Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Northwind.Web\\Pages\\Suppliers.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T01:30:44.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T01:30:44.167Z"
             }
           ]
         }

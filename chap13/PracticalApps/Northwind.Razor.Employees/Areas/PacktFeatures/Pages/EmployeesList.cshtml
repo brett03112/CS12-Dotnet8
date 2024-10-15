@@ -1,0 +1,52 @@
+@page
+@using Northwind.EntityModels
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers 
+@model PacktFeatures.Pages.EmployeesListPageModel
+
+<div class="row">
+  <h1 class="display-2">Employees</h1>
+</div>
+<div class="row">
+@foreach(Employee employee in Model.Employees)
+{
+  <div class="col-sm-3">
+    <!--This will look in Pages\Shared for _Employee.cshtml
+        and pass the employee model to it.-->
+    <partial name="_Employee" model="employee" />
+  </div>
+}
+</div>
+
+@*
+Razor Page for Displaying Employees
+
+This is a Razor page written in C# that displays a list of employees. Here's a breakdown of the code:
+
+The first four lines are directives:
+
+    @page: Indicates that this is a Razor page.
+
+    @using Northwind.EntityModels: Imports the Northwind.EntityModels namespace.
+
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers: Adds tag helpers from the 
+        Microsoft.AspNetCore.Mvc.TagHelpers namespace.
+
+    @model PacktFeatures.Pages.EmployeesListPageModel: Specifies the page model.
+
+The HTML code displays a heading "Employees" and a list of employees using a foreach loop.
+
+Inside the loop, a <partial> tag is used to render a partial view called _Employee.cshtml 
+(located in the Pages\Shared folder) for each employee, passing the employee model to it.
+
+In summary, this code generates a page that displays a list of employees, with each employee 
+rendered using a partial view.
+
+
+**************************
+We import the Northwind.EntityModels namespace so that we can use classes in it such as Employee.
+
+We add support for tag helpers so that we can use the <partial> element.
+
+We declare the @model type for this Razor Page to use the page model class that you just defined.
+We enumerate through the Employees in the model, outputting each one using a partial view.
+*@

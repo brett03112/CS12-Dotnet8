@@ -20,4 +20,34 @@
             Learn more about our suppliers
         </a>
     </p>
+    <p>
+        <a class="btn btn-primary" href="packtfeatures/employeeslist">
+            Contact our employees
+        </a>
+    </p>
 </div>
+
+@*
+This code snippet is a Razor page in an ASP.NET Core web application. Here's a brief breakdown:
+
+    The @page directive indicates that this is a Razor page.
+
+    The @functions block defines a code-behind section for the page.
+
+    Inside the @functions block:
+
+        DayName is a public string property that will be used to display the current day of the week.
+
+        OnGet is a method that is called when the page is requested (i.e., an HTTP GET request). It sets the page title and the current day of the week.
+
+    The HTML section defines the page content, including:
+
+        A jumbotron with a heading that displays the page title (@ViewData["Title"]).
+
+        A paragraph that displays a message with the current day of the week (@DayName).
+
+        Two links to other pages: "Learn more about our suppliers" and "Contact our employees".
+
+***In summary, this code snippet defines a simple Razor page that displays a welcome 
+message with the current day of the week and provides links to other pages.
+*@
