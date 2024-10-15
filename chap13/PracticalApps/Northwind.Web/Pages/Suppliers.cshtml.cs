@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc;
 using Northwind.EntityModels; // To use NorthwindContext
 
 namespace Northwind.Web.Pages;
@@ -6,6 +7,29 @@ namespace Northwind.Web.Pages;
 public class SuppliersModel : PageModel
 {
     private NorthwindContext _db;
+
+    [BindProperty]
+    public Supplier? Supplier { get; set; }
+
+    /// <summary>
+    /// Handles the HTTP POST request sent from the form to add a supplier.
+    /// If the Supplier is not null and the ModelState is valid, it adds the supplier to the database
+    /// and redirects to the Suppliers page. Otherwise, it returns to the original page.
+    /// </summary>
+    public IActionResult OnPost()
+    {
+        if (Supplier is not null && ModelState.IsValid)
+        {
+            _db.Suppliers.Add(Supplier);
+            _db.SaveChanges();
+
+            return RedirectToPage("/Suppliers");
+        }
+        else
+        {
+            return Page();  // return to the original page
+        }
+    }
 
     /// <summary>
     /// Constructor for SuppliersModel
@@ -20,6 +44,7 @@ public class SuppliersModel : PageModel
     {
         _db = db;
     }
+    
     public IEnumerable<Supplier>? Suppliers { get; set; }
 
     /// <summary>

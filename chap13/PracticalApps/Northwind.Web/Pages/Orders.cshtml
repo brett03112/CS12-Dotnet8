@@ -1,0 +1,41 @@
+﻿@page
+@model Northwind.Web.Pages.OrdersModel
+@using Northwind.EntityModels
+@inject NorthwindContext _db
+@{
+    string title = "Orders";
+    ViewData["Title"] = $"Northwind B2B - {title}";
+}
+
+<div class="row">
+    <h1 class="display-2">@title</h1>
+    <p>
+        There are @_db.Orders.Count() orders in the Northwind database.
+    </p>
+</div>
+
+@*
+Razor Page for Displaying Orders
+
+This is a Razor page in an ASP.NET Core application that displays the number of orders 
+in the Northwind database.
+
+Key Components:
+
+@page:      Indicates that this is a Razor page.
+
+@model Northwind.Web.Pages.OrdersModel: 
+            Specifies the model class that provides data for this page.
+
+@inject NorthwindContext _db: 
+            Injects an instance of the NorthwindContext class, which is used to access the database.
+
+ViewData["Title"] = $"Northwind B2B - {title}": 
+            Sets the page title to "Northwind B2B - Orders".
+
+<h1> and <p> tags: 
+            Display the title and the number of orders in the database, respectively.
+
+Context: This code is likely used in a web application that interacts with the Northwind database, 
+and this page is responsible for displaying the number of orders in the database.
+*@

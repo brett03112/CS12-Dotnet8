@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.web\\pages\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|solutionrelative:northwind.web\\pages\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|c:\\users\\brett\\documents\\csharp\\cs12-dotnet8\\chap13\\practicalapps\\northwind.web\\pages\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4A7B43ED-F14B-4A9B-A915-B3AD0C5EC936}|Northwind.Web\\Northwind.Web.csproj|solutionrelative:northwind.web\\pages\\suppliers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,19 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Orders.cshtml",
+              "RelativeToolTip": "Northwind.Web\\Pages\\Orders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T12:50:37.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Suppliers.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml.cs",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Suppliers.cshtml.cs",
@@ -38,18 +51,17 @@
               "RelativeToolTip": "Northwind.Web\\Pages\\Suppliers.cshtml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T01:31:02.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T01:31:02.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Suppliers.cshtml",
               "DocumentMoniker": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml",
               "RelativeDocumentMoniker": "Northwind.Web\\Pages\\Suppliers.cshtml",
               "ToolTip": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Pages\\Suppliers.cshtml",
               "RelativeToolTip": "Northwind.Web\\Pages\\Suppliers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-13T01:30:44.167Z",
               "EditorCaption": ""

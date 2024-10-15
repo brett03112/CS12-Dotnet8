@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ieWrfP2oucC1y0DMLVyOjT/oZ/5jPtFavJ2eSzX1+Bg=",
+  "Hash": "U7o2MO1lnpH4fawd3GmVr8ciY0xINsBIZ7+tQJIHhTE=",
   "Source": "Northwind.Web",
   "BasePath": "_content/Northwind.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Northwind.Web\\wwwroot",
       "Source": "Northwind.Web",
-      "ContentRoot": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\",
       "BasePath": "_content/Northwind.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
       "SourceId": "Northwind.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\",
       "BasePath": "_content/Northwind.Web",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -41,7 +41,7 @@
   "Endpoints": [
     {
       "Route": "index.359tunh8zb.html",
-      "AssetFile": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -86,7 +86,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {

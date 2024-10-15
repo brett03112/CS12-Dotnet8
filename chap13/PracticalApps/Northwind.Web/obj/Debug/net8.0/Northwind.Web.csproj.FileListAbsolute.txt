@@ -100,3 +100,4 @@ C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\bin\Debug\net8.0\Northwind.EntityModels.Sqlite.pdb
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\obj\Debug\net8.0\Northwind.Web.csproj.AssemblyReference.cache
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\obj\Debug\net8.0\Northwin.3B96DFC8.Up2Date
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

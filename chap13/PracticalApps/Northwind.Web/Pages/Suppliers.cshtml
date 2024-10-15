@@ -1,4 +1,5 @@
 ﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @using Northwind.EntityModels
 @model Northwind.Web.Pages.SuppliersModel
 @*This is a Razor page in an ASP.NET Core application. It displays a table of supplier company names.
@@ -42,4 +43,17 @@ assuming the data is provided by the SuppliersModel class.
             }
         </tbody>
     </table>
+</div>
+
+<div class="row">
+    <p>Enter details for a new supplier: </p>
+    <form method="POST">
+        <div><input asp-for="Supplier.CompanyName"
+            placeholder="Company Name" /></div>
+        <div><input asp-for="Supplier.Country"
+            placeholder="Country" /></div>
+        <div><input asp-for="Supplier.Phone"
+            placeholder="Phone" /></div>
+        <input type="submit" />
+    </form>
 </div>
