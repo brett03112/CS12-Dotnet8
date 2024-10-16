@@ -1,0 +1,61 @@
+@page
+@using Northwind.Web.Pages
+@using Northwind.EntityModels
+@model CustomerOrdersModel
+@{
+    string title = "Customer and their orders";
+    ViewData["Title"] = $"Northwind B2B - {title}";
+}
+<div class="row">
+    <h1 class="display-2">@title</h1>
+    <div>
+        @if (Model.Customer is not null)
+        {
+            <div>
+                <div>@Model.Customer.CompanyName</div>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order Id</th>
+                            <th>Order Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Order o in Model.Customer.Orders)
+                        {
+                            <tr>
+                                <td>@o.OrderId</td>
+                                <td>@o.OrderDate</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>
+
+@*
+Razor Page for Displaying Customer Orders
+
+This is a Razor page in an ASP.NET Core web application, specifically designed to 
+display a customer's orders. Here's a breakdown:
+
+--The page uses a CustomerOrdersModel as its model, which is expected to contain customer data.
+
+--The page sets a title and displays it as a heading (<h1>...</h1>).
+
+--If the customer data is not null, the page displays the customer's company name and a table of their orders, including order ID and date.
+    Key Components:
+
+--@page: Indicates this is a Razor page.
+
+--@model CustomerOrdersModel: Specifies the page's model.
+
+--@if (Model.Customer is not null): Conditional statement to check if customer data is available.
+
+--ForEach (Order o in Model.Customer.Orders): Loops through the customer's orders and displays 
+    the order ID and date for each one in a table row.
+*@
