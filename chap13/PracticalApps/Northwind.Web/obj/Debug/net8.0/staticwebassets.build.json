@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QZ97oMCY0Win030QnkhgNdyxuXhmRQQok+SxrK2sKes=",
+  "Hash": "ZtgBvQE9AuaKEPaKFGyisWM9838Zquo95ftUHepac1E=",
   "Source": "Northwind.Web",
   "BasePath": "_content/Northwind.Web",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "Northwind.Razor.Employees",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

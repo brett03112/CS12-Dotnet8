@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Northwind.Razor.Employees")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28b117214b1a29a8d3d16e24e7b32d2517204765")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86b4458771534a0d08ba3d01d7831acb47ccbd39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Northwind.Razor.Employees")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Northwind.Razor.Employees")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

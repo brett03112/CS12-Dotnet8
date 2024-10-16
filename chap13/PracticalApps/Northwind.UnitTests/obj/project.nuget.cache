@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6Ee5M8Y7rsE=",
+  "dgSpecHash": "M9Ac7ALqzGE=",
   "success": true,
   "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.UnitTests\\Northwind.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -40,8 +40,7 @@
     "C:\\Users\\brett\\.nuget\\packages\\xunit.core\\2.9.0\\xunit.core.2.9.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\xunit.extensibility.core\\2.9.0\\xunit.extensibility.core.2.9.0.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\xunit.extensibility.execution\\2.9.0\\xunit.extensibility.execution.2.9.0.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512",
-    "C:\\Users\\brett\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100-rc.2.24474.11\\microsoft.net.sdk.compilers.toolset.9.0.100-rc.2.24474.11.nupkg.sha512"
+    "C:\\Users\\brett\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
   "logs": []
 }
