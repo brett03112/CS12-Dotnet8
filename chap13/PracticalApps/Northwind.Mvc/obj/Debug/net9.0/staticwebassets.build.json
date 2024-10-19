@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yLWmyq8m36kwyYLrSNrR63Yfr/bRExumS0o/rWQI2Po=",
+  "Hash": "Pch6anLdLAhh4db/bSeuGEebDOLW/lV2fYjkttJGJkc=",
   "Source": "Northwind.Mvc",
   "BasePath": "_content/Northwind.Mvc",
   "Mode": "Default",
@@ -2999,12 +2999,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0-rc.2.24474.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-6zk2l9l359.gz",
       "SourceId": "Northwind.Mvc",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Northwind.Mvc",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=6zk2l9l359}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3013,8 +3013,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "v4kqvp38zh",
+      "Integrity": "kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "6zk2l9l359",
+      "Integrity": "TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4068,6 +4068,195 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\categories.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/categories#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "03i0l5d6bv",
+      "Integrity": "jBSgmtf7Y5RqihPuemKMxd7C3ihqF1Eo7Uv1O2XDPEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category1.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aj2d9ggvbv",
+      "Integrity": "6giUgbtdytbhYarNirzJxMI1xGK/Lgtvh03R4WwqNho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category1.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category2.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "orm62qzj2i",
+      "Integrity": "PG37yC1oSZX5GKmy8i3ca71rF8uOzvQPcZjJV6B8VVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category3.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category3#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oci6ku54gg",
+      "Integrity": "aL54TgE60sEb4GDhQgKaivr9NbWVsZK5gFkcG0j/SSc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category3.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category4.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category4#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ns73icqzl0",
+      "Integrity": "N6xOWLpKIthB0lIahx+ONOJ0rK6NsGYGUpsmkHZGRgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category4.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category5.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category5#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvlx5zdfhc",
+      "Integrity": "B/L4wK3Lvt/KJbtyHWEi0opNphUJ4lsBfKpOduJLSlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category5.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category6.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category6#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "537ugqi42z",
+      "Integrity": "n6iFWQEUTkeoGJ3wpyIvvLtQEIKZ4sWUPiv+k7Pjwq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category6.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category7.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category7#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qluahk7kje",
+      "Integrity": "klWOqoyXMpKaxBqrs1MSWnGeHeqVCmFnS3sjXYEIXco=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category7.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category8.jpeg",
+      "SourceId": "Northwind.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\",
+      "BasePath": "_content/Northwind.Mvc",
+      "RelativePath": "images/category8#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0mhuc0qf55",
+      "Integrity": "qKB/3IF2ZnAK6RnEd6xFoMMIHTPAwbovXWZc4s7wvkU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category8.jpeg"
     },
     {
       "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\js\\site.js",
@@ -5353,13 +5542,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-b9sayid5wm.gz",
+      "Route": "css/site.6zk2l9l359.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-6zk2l9l359.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002923976608"
         }
       ],
       "ResponseHeaders": [
@@ -5369,15 +5558,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "341"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Oct 2024 01:03:18 GMT"
+          "Value": "Sat, 19 Oct 2024 13:10:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5397,13 +5586,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "6zk2l9l359"
         },
         {
           "Name": "label",
@@ -5411,12 +5600,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.6zk2l9l359.css",
       "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5426,7 +5615,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "711"
         },
         {
           "Name": "Content-Type",
@@ -5434,11 +5623,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Oct 2024 01:03:18 GMT"
+          "Value": "Sat, 19 Oct 2024 13:10:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5448,7 +5637,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "6zk2l9l359"
         },
         {
           "Name": "label",
@@ -5456,13 +5645,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-b9sayid5wm.gz",
+      "Route": "css/site.6zk2l9l359.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-6zk2l9l359.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5471,7 +5660,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "341"
         },
         {
           "Name": "Content-Type",
@@ -5479,11 +5668,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Oct 2024 01:03:18 GMT"
+          "Value": "Sat, 19 Oct 2024 13:10:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5501,7 +5690,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "6zk2l9l359"
         },
         {
           "Name": "label",
@@ -5509,7 +5698,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw="
         }
       ]
     },
@@ -5552,12 +5741,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-6zk2l9l359.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002923976608"
         }
       ],
       "ResponseHeaders": [
@@ -5567,15 +5756,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "341"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Oct 2024 01:03:18 GMT"
+          "Value": "Sat, 19 Oct 2024 13:10:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,13 +5784,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0="
         }
       ]
     },
@@ -5616,7 +5805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "711"
         },
         {
           "Name": "Content-Type",
@@ -5624,11 +5813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Oct 2024 01:03:18 GMT"
+          "Value": "Sat, 19 Oct 2024 13:10:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5638,13 +5827,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-TiAUdMXmML/oLRKSJBcNJjRIB8L1zNAJHrldhUwfqe0="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\Debug\\net9.0\\compressed\\o92sm2orfj-6zk2l9l359.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5653,7 +5842,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "341"
         },
         {
           "Name": "Content-Type",
@@ -5661,11 +5850,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Oct 2024 01:03:18 GMT"
+          "Value": "Sat, 19 Oct 2024 13:10:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5683,7 +5872,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-kWTifFPmXtLG1QvWL28OWJ+gY7n2WM5DW+t8xmw8LRw="
         }
       ]
     },
@@ -14550,6 +14739,744 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/categories.03i0l5d6bv.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\categories.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1850430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jBSgmtf7Y5RqihPuemKMxd7C3ihqF1Eo7Uv1O2XDPEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "03i0l5d6bv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/categories.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jBSgmtf7Y5RqihPuemKMxd7C3ihqF1Eo7Uv1O2XDPEY="
+        }
+      ]
+    },
+    {
+      "Route": "images/categories.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\categories.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1850430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jBSgmtf7Y5RqihPuemKMxd7C3ihqF1Eo7Uv1O2XDPEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jBSgmtf7Y5RqihPuemKMxd7C3ihqF1Eo7Uv1O2XDPEY="
+        }
+      ]
+    },
+    {
+      "Route": "images/category1.aj2d9ggvbv.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6giUgbtdytbhYarNirzJxMI1xGK/Lgtvh03R4WwqNho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aj2d9ggvbv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6giUgbtdytbhYarNirzJxMI1xGK/Lgtvh03R4WwqNho="
+        }
+      ]
+    },
+    {
+      "Route": "images/category1.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6giUgbtdytbhYarNirzJxMI1xGK/Lgtvh03R4WwqNho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6giUgbtdytbhYarNirzJxMI1xGK/Lgtvh03R4WwqNho="
+        }
+      ]
+    },
+    {
+      "Route": "images/category2.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1190788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PG37yC1oSZX5GKmy8i3ca71rF8uOzvQPcZjJV6B8VVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PG37yC1oSZX5GKmy8i3ca71rF8uOzvQPcZjJV6B8VVU="
+        }
+      ]
+    },
+    {
+      "Route": "images/category2.orm62qzj2i.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1190788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PG37yC1oSZX5GKmy8i3ca71rF8uOzvQPcZjJV6B8VVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "orm62qzj2i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PG37yC1oSZX5GKmy8i3ca71rF8uOzvQPcZjJV6B8VVU="
+        }
+      ]
+    },
+    {
+      "Route": "images/category3.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aL54TgE60sEb4GDhQgKaivr9NbWVsZK5gFkcG0j/SSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aL54TgE60sEb4GDhQgKaivr9NbWVsZK5gFkcG0j/SSc="
+        }
+      ]
+    },
+    {
+      "Route": "images/category3.oci6ku54gg.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aL54TgE60sEb4GDhQgKaivr9NbWVsZK5gFkcG0j/SSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oci6ku54gg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category3.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aL54TgE60sEb4GDhQgKaivr9NbWVsZK5gFkcG0j/SSc="
+        }
+      ]
+    },
+    {
+      "Route": "images/category4.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1691680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N6xOWLpKIthB0lIahx+ONOJ0rK6NsGYGUpsmkHZGRgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N6xOWLpKIthB0lIahx+ONOJ0rK6NsGYGUpsmkHZGRgA="
+        }
+      ]
+    },
+    {
+      "Route": "images/category4.ns73icqzl0.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1691680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N6xOWLpKIthB0lIahx+ONOJ0rK6NsGYGUpsmkHZGRgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ns73icqzl0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category4.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N6xOWLpKIthB0lIahx+ONOJ0rK6NsGYGUpsmkHZGRgA="
+        }
+      ]
+    },
+    {
+      "Route": "images/category5.dvlx5zdfhc.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1777905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/L4wK3Lvt/KJbtyHWEi0opNphUJ4lsBfKpOduJLSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvlx5zdfhc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category5.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/L4wK3Lvt/KJbtyHWEi0opNphUJ4lsBfKpOduJLSlI="
+        }
+      ]
+    },
+    {
+      "Route": "images/category5.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1777905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/L4wK3Lvt/KJbtyHWEi0opNphUJ4lsBfKpOduJLSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/L4wK3Lvt/KJbtyHWEi0opNphUJ4lsBfKpOduJLSlI="
+        }
+      ]
+    },
+    {
+      "Route": "images/category6.537ugqi42z.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category6.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1942233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n6iFWQEUTkeoGJ3wpyIvvLtQEIKZ4sWUPiv+k7Pjwq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "537ugqi42z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category6.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n6iFWQEUTkeoGJ3wpyIvvLtQEIKZ4sWUPiv+k7Pjwq4="
+        }
+      ]
+    },
+    {
+      "Route": "images/category6.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category6.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1942233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n6iFWQEUTkeoGJ3wpyIvvLtQEIKZ4sWUPiv+k7Pjwq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n6iFWQEUTkeoGJ3wpyIvvLtQEIKZ4sWUPiv+k7Pjwq4="
+        }
+      ]
+    },
+    {
+      "Route": "images/category7.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2082204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"klWOqoyXMpKaxBqrs1MSWnGeHeqVCmFnS3sjXYEIXco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-klWOqoyXMpKaxBqrs1MSWnGeHeqVCmFnS3sjXYEIXco="
+        }
+      ]
+    },
+    {
+      "Route": "images/category7.qluahk7kje.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category7.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2082204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"klWOqoyXMpKaxBqrs1MSWnGeHeqVCmFnS3sjXYEIXco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qluahk7kje"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category7.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-klWOqoyXMpKaxBqrs1MSWnGeHeqVCmFnS3sjXYEIXco="
+        }
+      ]
+    },
+    {
+      "Route": "images/category8.0mhuc0qf55.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category8.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1670600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qKB/3IF2ZnAK6RnEd6xFoMMIHTPAwbovXWZc4s7wvkU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0mhuc0qf55"
+        },
+        {
+          "Name": "label",
+          "Value": "images/category8.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qKB/3IF2ZnAK6RnEd6xFoMMIHTPAwbovXWZc4s7wvkU="
+        }
+      ]
+    },
+    {
+      "Route": "images/category8.jpeg",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\wwwroot\\images\\category8.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1670600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qKB/3IF2ZnAK6RnEd6xFoMMIHTPAwbovXWZc4s7wvkU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Jul 2024 10:44:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qKB/3IF2ZnAK6RnEd6xFoMMIHTPAwbovXWZc4s7wvkU="
         }
       ]
     },
