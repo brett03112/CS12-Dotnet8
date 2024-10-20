@@ -28,6 +28,7 @@
                 <li data-bs-target="#categories" data-bs-slide-to="@i" class="@currentItem"></li>
             }
         </ol>
+
         <div class="carousel-inner">
             @for (int i = 0; i < Model.Categories.Count; i++)
             {
@@ -65,7 +66,7 @@
     </div>
 }
 
-< div class="row">
+<div class="row">
     <div class="col-md-12">
         <h1>Northwind</h1>
         <p class="lead">
@@ -78,13 +79,12 @@
                 <ul class="list-group">
                     @foreach (Product p in @Model.Products)
                     {
-                        <li class="list-group-item d-flex justify-content-between alignitems-start">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
                             <a asp-controller="Home" asp-action="ProductDetail" asp-route-id="@p.ProductId"
                                 class="btn btn-outline-primary">
                                 <div class="ms-2 me-auto">@p.ProductName</div>
                                 <span class="badge bg-primary rounded-pill">
-                                    @(p.UnitPrice is null ? "zero" : p.UnitPrice.Value.
-                                        ToString("C"))
+                                    @(p.UnitPrice is null ? "zero" : p.UnitPrice.Value.ToString("C"))
                                 </span>
                             </a>
                         </li>
@@ -93,4 +93,4 @@
             </div>
         }
     </div>
-    </div>
+</div>
