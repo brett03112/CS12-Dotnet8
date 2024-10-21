@@ -161,8 +161,8 @@ code.
 */
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+    //.WithStaticAssets();
 /*
 If the visitor navigates to a path of / or /Home, then it is the equivalent of /Home/Index because those
 were the default names for the controller and action in the default route.

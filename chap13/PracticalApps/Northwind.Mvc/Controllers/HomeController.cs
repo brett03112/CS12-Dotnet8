@@ -10,16 +10,20 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly NorthwindContext _db;
+    
 
+    
+    
     /// <summary>
-    /// The default constructor for HomeController that takes a logger and a database context.
+    /// The controller that handles HTTP requests for the home page.
     /// </summary>
-    /// <param name="logger">The logger to use for logging.</param>
-    /// <param name="db">The database context to use for accessing and manipulating data.</param>
+    /// <param name="logger">The logger to write diagnostic messages to.</param>
+    /// <param name="db">The database context to store and retrieve data from.</param>
     public HomeController(ILogger<HomeController> logger, NorthwindContext db)
     {
         _logger = logger;
         _db = db;
+        
     }
 
     /// <summary>
@@ -105,5 +109,40 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+
+    // This action method will handle GET and other requests except POST
+    public IActionResult ModelBinding()
+    {
+        return View(); // The page with a form to submit
+    }
+
+        
+    
+    /// <summary>
+    /// The function ModelBinding in C# creates a view model based on a Thing object and ModelState
+    /// errors for rendering in a view.
+    /// </summary>
+    /// <param name="Thing">The `Thing` parameter in the `ModelBinding` method is an object of type
+    /// `Thing` that is being passed as a parameter to the action method. This object likely contains
+    /// data that was submitted in a form or as part of a request, and the method is using model binding
+    /// to bind this</param>
+    /// <returns>
+    /// The code snippet is returning a View with a `HomeModelBindingViewModel` model. The
+    /// `HomeModelBindingViewModel` model is being initialized with the `Thing` object, a boolean value
+    /// indicating if there are validation errors (`!ModelState.IsValid`), and a list of validation
+    /// error messages extracted from the `ModelState`.
+    /// </returns>
+    [HttpPost] // This action method will handle POST requests
+    public IActionResult ModelBinding(Thing thing)
+    {
+        HomeModelBindingViewModel model = new(
+            Thing: thing, HasErrors: !ModelState.IsValid,
+            ValidationErrors: ModelState.Values
+                .SelectMany(state => state.Errors)
+                .Select(error => error.ErrorMessage)
+        );
+
+        return View(model); // Show the model bound thingS
     }
 }
