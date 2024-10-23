@@ -1,0 +1,8 @@
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.AssemblyInfo.cs
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.RazorAssemblyInfo.cache
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.RazorAssemblyInfo.cs
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\obj\Debug\net9.0\PracticalApps.sourcelink.json
