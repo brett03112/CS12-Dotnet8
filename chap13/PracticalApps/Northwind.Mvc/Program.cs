@@ -2,7 +2,8 @@
 using Northwind.EntityModels; // To use AddNorthwindContext method
 using Microsoft.AspNetCore.Identity; // To use IdentityUser
 using Microsoft.EntityFrameworkCore; // To use DbContext
-using Northwind.Mvc.Data; // To use ApplicationDbContext
+using Northwind.Mvc.Data;
+using Microsoft.Extensions.Options; // To use ApplicationDbContext
 #endregion
 
 #region Configure the host web server including services
@@ -20,18 +21,61 @@ The second section creates and configures a web host builder that does the follo
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+/* The line `var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");` is
+retrieving the connection string named "DefaultConnection" from the configuration settings. */
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
+
+/* `builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(connectionString));` is configuring and adding a database context to the
+services container in the ASP.NET Core application. */
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
 
+
+/* `builder.Services.AddDatabaseDeveloperPageExceptionFilter();` is adding a developer exception page
+filter to the services container in the ASP.NET Core application. This filter is specifically
+designed for database-related exceptions that occur during development. */
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+
+/* `builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount
+= true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();` */
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
+/* `builder.Services.AddControllersWithViews();` is adding support for MVC controllers with views to
+the services container in the ASP.NET Core application. This method registers the necessary services
+for handling controllers and views, allowing the application to respond to HTTP requests by
+rendering views and returning HTML responses. */
 builder.Services.AddControllersWithViews();
+
+
+/* `builder.Services.AddNorthwindContext();` is a custom method being called to add the necessary
+services related to the Northwind database context to the services container in the ASP.NET Core
+application. This method likely configures and registers services required to interact with the
+Northwind database, such as setting up the database context, entity framework configurations, and
+any other dependencies specific to the Northwind database within the application. */
 builder.Services.AddNorthwindContext(); // To use AddNorthwindContext method
+
+
+/* The below code is configuring output caching in a C# application. It is using the `AddOutputCache`
+method to set up caching options. */
+builder.Services.AddOutputCache(options =>
+{
+    /* The below code in C# is setting the default expiration time span to 10 seconds. This means that
+    any cached items will expire and be removed from the cache after 10 seconds. */
+    options.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(10);
+
+
+    /* The below code is setting a caching policy named "views" with the option to vary the cache by
+    query parameters. This means that the cached response will be different based on the query
+    parameters in the request URL. */
+    options.AddPolicy("views", p => p.SetVaryByQuery("alertstyle"));
+});
 
 var app = builder.Build();
 
@@ -40,6 +84,10 @@ var app = builder.Build();
 #region Configure the HTTP request pipeline
 
 // Configure the HTTP request pipeline.
+/* The code snippet `if (app.Environment.IsDevelopment())` is checking the environment in which the
+application is running. If the application is running in a development environment, it will execute
+`app.UseMigrationsEndPoint();`. This method adds middleware to enable the endpoint for applying
+migrations to the database during development. */
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
@@ -51,12 +99,37 @@ else
     app.UseHsts();
 }
 
+
+/* `app.UseHttpsRedirection();` is a middleware in ASP.NET Core that redirects HTTP requests to HTTPS.
+When this middleware is added to the request pipeline, it checks if the incoming request is using
+HTTP. If it is, the middleware automatically issues a redirect response to the same URL but with
+HTTPS instead of HTTP. */
 app.UseHttpsRedirection();
+
+
+/* `app.UseRouting();` is a middleware in ASP.NET Core that sets up the routing for incoming HTTP
+requests. This middleware is responsible for inspecting the incoming request's URL and determining
+which endpoint (controller action) should handle the request based on the configured routes in the
+application. */
 app.UseRouting();
 
+
+/* `app.UseAuthorization();` is a middleware in ASP.NET Core that adds authorization policy evaluation
+to the request pipeline. This middleware is responsible for checking whether the current user is
+authorized to access the requested resource based on the defined authorization policies in the
+application. */
 app.UseAuthorization();
 
+
+/* `app.MapStaticAssets();` is likely a custom method or extension method being called in the ASP.NET
+Core application to map and serve static assets such as CSS, JavaScript, images, or other files that
+do not require server-side processing. */
 app.MapStaticAssets();
+
+
+/* `app.UseOutputCache();` is likely a custom middleware or extension method being called in the
+ASP.NET Core application to enable output caching. */
+app.UseOutputCache();
 
 /*
 ***example URLs and how the default route would work out the names of a controller and action:
@@ -159,18 +232,37 @@ like document formats such as a PDF file or an Excel file, or data formats, like
 • Return the results from the view to the client as an HTTP response with an appropriate status
 code.
 */
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-    //.WithStaticAssets();
+    //.CacheOutput(policyName: "views");
+    /* The above code in C# is setting up a default route for controllers in an application. It specifies
+that if no specific controller or action is provided in the URL, it will default to the "Home"
+controller and the "Index" action. The "id" parameter is optional. Additionally, the code is using
+the `CacheOutput` method to apply caching with a policy named "views" to the route. */
+
 /*
 If the visitor navigates to a path of / or /Home, then it is the equivalent of /Home/Index because those
 were the default names for the controller and action in the default route.
 */
 
 
+/* The code `app.MapRazorPages().WithStaticAssets();` is configuring the ASP.NET Core application to
+map Razor Pages and serve static assets. */
 app.MapRazorPages()
     .WithStaticAssets();
+
+
+/* The line `app.MapGet("/notcached", () => DateTime.Now.ToString());` is configuring a route in the
+ASP.NET Core application for handling HTTP GET requests to the path "/notcached". */
+app.MapGet("/notcached", () => DateTime.Now.ToString());
+
+
+/* The line `app.MapGet("/cached", () => DateTime.Now.ToString()).CacheOutput();` is configuring a
+route in the ASP.NET Core application for handling HTTP GET requests to the path "/cached" and
+caching the output of the request. */
+app.MapGet("/cached", () => DateTime.Now.ToString()).CacheOutput();
 
 #endregion
 

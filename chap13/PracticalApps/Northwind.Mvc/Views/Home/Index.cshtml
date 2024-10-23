@@ -5,13 +5,42 @@
     ViewData["Title"] = "Home Page";
     string currentItem = "";
 }
-
+@*
+This is a Razor HTML snippet in an ASP.NET Core application. It displays a centered welcome message 
+with the current time, a link to a "ModelBinding" action in the "Home" controller, and a link to 
+the official ASP.NET Core documentation.
+*@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
+    <p class="alert alert-primary">@DateTime.Now.ToLongTimeString()</p>
     <p><a asp-action="ModelBinding" asp-controller="Home">Binding</a></p>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
+@*
+This code snippet is a Razor HTML template in an ASP.NET Core application. It displays a Bootstrap 
+carousel component that shows a list of categories with images, names, and descriptions. The carousel 
+is only rendered if the Model object is not null.
+
+Here's a breakdown of the code:
+
+    The outer if statement checks if the Model object is not null. If it's null, the entire carousel is not rendered.
+
+    The carousel component is defined with an ID of "categories" and various Bootstrap classes.
+
+    The first for loop generates the carousel indicators (small dots or lines that indicate the current slide).
+
+    The second for loop generates the carousel items, which contain:
+
+    An image with a src attribute that points to a JPEG file named after the category ID.
+
+    A caption with the category name, description, and a "View" button that links to a category detail page.
+
+    The carousel control buttons (previous and next) are defined with Bootstrap classes and icons.
+
+    Overall, this code snippet is used to display a dynamic carousel component that showcases a list of categories 
+    with images and descriptions.
+*@
 @if (Model is not null)
 {
     <div id="categories" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-keyboard="true">
@@ -66,13 +95,38 @@
         </a>
     </div>
 }
-
+@*
+This Razor HTML snippet displays a header and a paragraph of text. The paragraph contains a dynamic value, 
+VisitorCount, which is retrieved from a model object (@Model) and displays the number of visitors for the 
+current month. The ?. syntax is used for null-conditional navigation, meaning that if @Model is null, the 
+expression will not throw a null reference exception, but instead return null.
+*@
 <div class="row">
     <div class="col-md-12">
         <h1>Northwind</h1>
         <p class="lead">
             We have had @Model?.VisitorCount visitors this month.
         </p>
+
+        @*
+        This code snippet is a simple HTML form that allows users to query products by price.
+
+        Here's a breakdown:
+
+            The form submits a GET request to the ProductsThatCostMoreThan action.
+
+            The form contains a single input field named price, where users can enter a product price.
+
+            When the user submits the form, the entered price is sent as a query parameter to the 
+            ProductsThatCostMoreThan action, which presumably retrieves and displays products that cost more 
+            than the entered price.
+        *@
+        <h3>Query products by price</h3>
+        <form asp-action="ProductsThatCostMoreThan" method="GET">
+            <input name="price" placeholder="Enter a product price" />
+            <input type="submit" />
+        </form>
+
         @if (Model is not null)
         {
             <h2>Products</h2>
