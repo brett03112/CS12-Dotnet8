@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Northwind.DataContext.Sqlite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10cbbc77de21417153ae7762a97e6348496127e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac4a30eed10fcb5adce7ab381b810e4e7f6828dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Northwind.DataContext.Sqlite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Northwind.DataContext.Sqlite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
