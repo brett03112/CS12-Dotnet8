@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "W/tjVxBOQKM=",
+=======
+  "dgSpecHash": "ie4X0fPRpoA=",
+>>>>>>> fd157d7b66715ad4a2c1936e1f92e116d25dd276
   "success": true,
   "projectFilePath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Northwind.Web.csproj",
   "expectedPackageFiles": [
