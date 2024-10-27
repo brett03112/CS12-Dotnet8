@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mr2he5Xn/SY=",
+  "dgSpecHash": "UrGnqcOK5W8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\Northwind.Mvc.csproj",
+  "projectFilePath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\Northwind.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.0-rc.2.24474.3\\microsoft.aspnetcore.cryptography.internal.9.0.0-rc.2.24474.3.nupkg.sha512",

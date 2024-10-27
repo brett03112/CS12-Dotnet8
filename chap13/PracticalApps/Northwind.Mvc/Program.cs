@@ -24,7 +24,8 @@ var builder = WebApplication.CreateBuilder(args);
 /* The line `var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
 throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");` is
 retrieving the connection string named "DefaultConnection" from the configuration settings. */
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+                       ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
 
 /* `builder.Services.AddDbContext<ApplicationDbContext>(options =>

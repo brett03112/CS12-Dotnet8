@@ -9,13 +9,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000; /* Changed to black */
+    color: #fff; /* Changed to white */
 }
 
 /* Header styles */
 header {
-    background-color: #007bff;
+    background-color: #032447;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -51,7 +51,7 @@ footer {
 
 /* Accessibility styles */
 a:focus, button:focus {
-    outline: 2px solid #007bff;
+    outline: 2px solid #0a0a0a;
 }
 
 /* High contrast for better readability */
@@ -62,10 +62,10 @@ a:focus, button:focus {
     }
 
     header {
-        background-color: #0056b3;
+        background-color: #5b6875;
     }
 
     footer {
-        background-color: #0056b3;
+        background-color: #67798d00;
     }
 }

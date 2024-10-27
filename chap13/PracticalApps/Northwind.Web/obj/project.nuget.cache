@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uxqkL1jF7X0=",
+  "dgSpecHash": "W/tjVxBOQKM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Northwind.Web.csproj",
+  "projectFilePath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Web\\Northwind.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",

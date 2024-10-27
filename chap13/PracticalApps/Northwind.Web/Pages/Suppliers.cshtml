@@ -48,11 +48,11 @@ assuming the data is provided by the SuppliersModel class.
 <div class="row">
     <p>Enter details for a new supplier: </p>
     <form method="POST">
-        <div><input asp-for="Supplier.CompanyName"
+        <div><input asp-for="Supplier!.CompanyName"
             placeholder="Company Name" /></div>
-        <div><input asp-for="Supplier.Country"
+        <div><input asp-for="Supplier!.Country"
             placeholder="Country" /></div>
-        <div><input asp-for="Supplier.Phone"
+        <div><input asp-for="Supplier!.Phone"
             placeholder="Phone" /></div>
         <input type="submit" />
     </form>
