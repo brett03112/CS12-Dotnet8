@@ -27,3 +27,6 @@ C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razo
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razor.Employees\obj\Debug\net8.0\ref\Northwind.Razor.Employees.dll
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razor.Employees\obj\Debug\net8.0\Northwind.Razor.Employees.RazorAssemblyInfo.cache
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razor.Employees\obj\Debug\net8.0\Northwind.Razor.Employees.RazorAssemblyInfo.cs
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razor.Employees\bin\Debug\net8.0\Northwind.Razor.Employees.staticwebassets.endpoints.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razor.Employees\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Razor.Employees\obj\Debug\net8.0\staticwebassets\msbuild.Northwind.Razor.Employees.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

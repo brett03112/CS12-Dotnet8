@@ -1,0 +1,128 @@
+Routing web services
+
+With MVC controllers, a route like /home/index tells us the controller class name and the action method
+name, for example, the HomeController class and the Index action method.
+
+With Web API controllers, a route like /weatherforecast only tells us the controller class name, for
+example, WeatherForecastController. To determine the action method name to execute, we must
+map HTTP methods like GET and POST to methods in the controller class.
+
+You should decorate controller methods with the following attributes to indicate the HTTP method
+that they will respond to:
+
+    • [HttpGet] and [HttpHead]: These action methods respond to GET or HEAD requests to retrieve a
+    resource and return either the resource and its response headers or just the response headers.
+    
+    • [HttpPost]: This action method responds to POST requests to create a new resource or perform
+    some other action defined by the service.
+    
+    • [HttpPut] and [HttpPatch]: These action methods respond to PUT or PATCH requests to update
+    an existing resource either by replacing it or updating a subset of its properties.
+    
+    • [HttpDelete]: This action method responds to DELETE requests to remove a resource.
+    
+    • [HttpOptions]: This action method responds to OPTIONS requests.
+
+
+Route constraints
+
+Route constraints allow us to control matches based on data types and other validation. They are
+summarized in Table 14.3:
+
+Constraint          Example                     Description
+
+required            {id:required}               The parameter has been provided.
+
+int and long        {id:int}                    Any integer of the correct size.
+
+decimal, double,
+and float           {unitprice:decimal}         Any real number of the correct size.
+
+bool                {discontinued:bool}         Case-insensitive match on true or false.
+
+datetime            {hired:datetime}            An invariant culture date/time.
+
+guid                {id:guid}                   A globally unique identifier.
+
+minlength(n),       {title:minlength(5)},       The text must have the defined
+maxlength(n),       {title:length(5, 25)}       minimum and/or maximum length
+length(n), and
+length(n, m)
+
+min(n), max(n),and  {age:range(18, 65)}         The integer must be within the defined 
+range(n, m)                                     minimum and/or maximum range.
+
+alpha, regex        {firstname:alpha},          The parameter must match one or more
+                    {id:regex(^[A-Z]{{5}}$)}    alphabetic characters or the regular
+                                                expression.
+
+
+Use colons to separate multiple constraints, as shown in the following example:
+
+        [Route("employees/{years:int:minlength(3)}")]
+        public Employees[] GetLoyalEmployees(int years)
+
+For regular expressions, RegexOptions.IgnoreCase | RegexOptions.Compiled | RegexOptions.
+CultureInvariant is added automatically. Regular expression tokens must be escaped (replace \ with
+\\, { with {{, and } with }}) or use verbatim string literals.
+
+Short-circuit routes in ASP.NET Core 8
+
+When routing matches a request to an endpoint, it lets the rest of the middleware pipeline run before
+invoking the endpoint logic. That takes time, so in ASP.NET Core 8, you can invoke the endpoint immediately
+ and return the response.
+
+You do this by calling the ShortCircuit method on a mapped endpoint route, as shown in the following code:
+    
+    app.MapGet("/", () => "Hello World").ShortCircuit();
+
+Alternatively, you can call the MapShortCircuit method to respond with a 404 Missing Resource or
+other status code for resources that don’t need further processing, as shown in the following code:
+    
+    app.MapShortCircuit(404, "robots.txt", "favicon.ico");
+
+
+Understanding action method return types
+
+An action method can return .NET types like a single string value; complex objects defined by a
+class, record, or struct; or collections of complex objects. ASP.NET Core will serialize them into
+the requested data format set in the HTTP request Accept header, for example, JSON, if a suitable
+serializer has been registered.
+
+For more control over the response, there are helper methods that return an ActionResult wrapper
+around the .NET type.
+
+Declare the action method’s return type to be IActionResult if it could return different return types
+based on the input or other variables. Declare the action method’s return type to be ActionResult<T>
+if it will only return a single type but with different status codes.
+
+For example, an action method that gets a product based on an id parameter will be decorated with
+three attributes—one to indicate that it responds to GET requests and has an id parameter and two to
+indicate what happens when it succeeds and when the client has supplied an invalid product ID, as
+shown in the following code:
+
+    [HttpGet("{id}")]
+    [ProducesResponseType(200, Type = typeof(Product))]
+    [ProducesResponseType(404)]
+    public IActionResult Get(string id)
+
+Method              Description
+
+Ok                  Returns a 200 status code and a resource converted into the client’s preferred
+                    format, like JSON or XML. Commonly used in response to a GET request.
+
+CreatedAtRoute      Returns a 201 status code and the path to the new resource.
+                    response to a POST request to create a resource that can be created quickly.
+
+Accepted            Returns a 202 status code to indicate the request is being processed but has not
+                    been completed. Commonly used in response to a POST, PUT, PATCH, or DELETE
+                    request that triggers a background process that takes a long time to complete.
+
+NoContentResult     Returns a 204 status code and an empty response body. Commonly used in
+                    response to a PUT, PATCH, or DELETE request when the response does not need
+                    to contain the affected resource.
+
+BadRequest          Returns a 400 status code and an optional message string with more details.
+
+NotFound            Returns an e status code and automatically populates the ProblemDetails body
+                    (requires a compatibility version of 2.2 or later).

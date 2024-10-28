@@ -101,3 +101,7 @@ C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\bin\Debug\net8.0\Northwind.Razor.Employees.dll
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\bin\Debug\net8.0\Northwind.Razor.Employees.pdb
 C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\obj\Debug\net8.0\Northwind.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\bin\Debug\net8.0\Northwind.Razor.Employees.staticwebassets.endpoints.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\bin\Debug\net8.0\Northwind.Web.staticwebassets.endpoints.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Web\obj\Debug\net8.0\staticwebassets\msbuild.Northwind.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
