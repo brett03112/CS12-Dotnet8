@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M9Ac7ALqzGE=",
+  "dgSpecHash": "Ux+h9VjbrzQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.UnitTests\\Northwind.UnitTests.csproj",
+  "projectFilePath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.UnitTests\\Northwind.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.codecoverage\\17.10.0\\microsoft.codecoverage.17.10.0.nupkg.sha512",

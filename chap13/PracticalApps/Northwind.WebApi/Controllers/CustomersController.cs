@@ -7,11 +7,11 @@ namespace Northwind.WebApi.Controllers;
 // Base address:api/customers
 [Route("api/[controller]")]
 [ApiController]
-public class CustomerController : ControllerBase
+public class CustomersController : ControllerBase
 {
     private readonly ICustomerRepository _repo;
 
-    public CustomerController(ICustomerRepository repo)
+    public CustomersController(ICustomerRepository repo)
     {
         // Constructor injects repository registered in Program.cs
         _repo = repo;
