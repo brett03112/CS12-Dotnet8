@@ -3609,11 +3609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\Northwind.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\Northwind.Mvc.csproj",
       "projectName": "Northwind.Mvc",
-      "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\Northwind.Mvc.csproj",
+      "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\Northwind.Mvc.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3635,8 +3635,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.DataContext.Sqlite\\Northwind.DataContext.Sqlite.csproj": {
-              "projectPath": "c:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.DataContext.Sqlite\\Northwind.DataContext.Sqlite.csproj"
+            "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.DataContext.Sqlite\\Northwind.DataContext.Sqlite.csproj": {
+              "projectPath": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.DataContext.Sqlite\\Northwind.DataContext.Sqlite.csproj"
             }
           }
         }

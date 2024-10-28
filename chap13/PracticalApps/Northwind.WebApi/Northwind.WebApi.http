@@ -1,6 +1,8 @@
-@Northwind.WebApi_HostAddress = http://localhost:5029
+@base_address = https://localhost:5151/
 
-GET {{Northwind.WebApi_HostAddress}}/weatherforecast/
+GET {{{{base_address}}}}/weatherforecast/
 Accept: application/json
 
-###
+### Get the weather forecast for a period of days
+GET {{{{base_address}}}}/weatherforecast/2
+Accept: application/json

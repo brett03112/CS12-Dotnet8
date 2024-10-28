@@ -10,8 +10,7 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly NorthwindContext _db;
-
-
+    private readonly IHttpClientFactory _clientFactory;
 
 
     /// <summary>
@@ -19,11 +18,11 @@ public class HomeController : Controller
     /// </summary>
     /// <param name="logger">The logger to write diagnostic messages to.</param>
     /// <param name="db">The database context to store and retrieve data from.</param>
-    public HomeController(ILogger<HomeController> logger, NorthwindContext db)
+    public HomeController(ILogger<HomeController> logger, NorthwindContext db, IHttpClientFactory httpClientFactory)
     {
         _logger = logger;
         _db = db;
-
+        _clientFactory = httpClientFactory;
     }
 
     
@@ -194,6 +193,20 @@ public class HomeController : Controller
         return View(model);
     }
 
+    /// <summary>
+    /// The category detail action displays a view with the details of a category.
+    /// </summary>
+    /// <param name="id">The `id` parameter in the `CategoryDetail` action is an optional integer
+    /// parameter representing the ID of a category to be displayed. If the ID is not provided in the
+    /// route, a BadRequest response is returned with a message instructing the user to pass a category
+    /// ID in the route. If the category with the specified ID is not found in the database, a NotFound
+    /// response is returned with a message indicating that the category was not found.</param>
+    /// <returns>
+    /// The `CategoryDetail` action returns a View with a `Category` model. The `Category` model is
+    /// retrieved from the database using the ID passed in the route and includes the products in the
+    /// category. If the category is not found, a NotFound response is returned with a message
+    /// indicating that the category was not found.
+    /// </returns>
     public async Task<IActionResult> CategoryDetail(int? id)
     {
         if (!id.HasValue)
@@ -209,6 +222,50 @@ public class HomeController : Controller
         {
             return NotFound($"No category with ID {id} was found.");
         }
+
+        return View(model);
+    }
+
+
+    
+    /// <summary>
+    /// This C# function retrieves a list of customers based on the specified country using an API call
+    /// and returns the data to be displayed in a view.
+    /// </summary>
+    /// <param name="country">The `Customers` method is an asynchronous action in a controller that
+    /// retrieves a list of customers based on the provided `country` parameter. If the `country`
+    /// parameter is empty or null, it fetches all customers worldwide; otherwise, it fetches customers
+    /// from a specific country.</param>
+    /// <returns>
+    /// The Customers method is returning a View with the model data retrieved from the specified API
+    /// endpoint based on the country parameter. If the country parameter is empty, it fetches all
+    /// customers worldwide, and if a specific country is provided, it fetches customers from that
+    /// country. The model returned to the View is an IEnumerable<Customer> containing customer data
+    /// obtained from the API response.
+    /// </returns>
+    public async Task<IActionResult> Customers(string country)
+    {
+        string uri;
+
+        if (string.IsNullOrEmpty(country))
+        {
+            ViewData["Title"] = "All Customers Worldwide";
+            uri = "api/customers";
+        }
+        else
+        {
+            ViewData["Title"] = $"Customers in {country}";
+            uri = $"api/customers/?country={country}";
+        }
+
+        HttpClient client = _clientFactory.CreateClient(name: "Northwind.WebApi");
+
+        HttpRequestMessage request = new(method: HttpMethod.Get, requestUri: uri);
+
+        HttpResponseMessage response = await client.SendAsync(request);
+
+        IEnumerable<Customer>? model = await response.Content
+            .ReadFromJsonAsync<IEnumerable<Customer>>();
 
         return View(model);
     }

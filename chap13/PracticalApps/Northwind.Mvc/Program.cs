@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity; // To use IdentityUser
 using Microsoft.EntityFrameworkCore; // To use DbContext
 using Northwind.Mvc.Data;
 using Microsoft.Extensions.Options; // To use ApplicationDbContext
+using System.Net.Http.Headers; // To use MediaTypeWithQualityHeaderValue
 #endregion
 
 #region Configure the host web server including services
@@ -77,6 +78,18 @@ builder.Services.AddOutputCache(options =>
     parameters in the request URL. */
     options.AddPolicy("views", p => p.SetVaryByQuery("alertstyle"));
 });
+
+/* The below code is configuring an HttpClient named "Northwind.WebApi" in a C# application. It sets
+the base address of the HttpClient to "https://localhost:5151/" and adds a default request header to
+accept JSON content with a quality value of 1.0. This HttpClient configuration can be used to make
+HTTP requests to the specified base address with the specified headers. */
+builder.Services.AddHttpClient(name: "Northwind.WebApi",
+    configureClient: options => 
+    {
+        options.BaseAddress = new Uri("https://localhost:5151/");
+        options.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(
+            mediaType:"application/json", quality: 1.0));
+    });
 
 var app = builder.Build();
 
