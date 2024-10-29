@@ -45,3 +45,5 @@ c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\Northwind.DataContext.Sqlite
 c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\Northwind.DataContext.Sqlite\obj\Debug\net8.0\refint\Northwind.DataContext.Sqlite.dll
 c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.pdb
 c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\Northwind.DataContext.Sqlite\obj\Debug\net8.0\ref\Northwind.DataContext.Sqlite.dll
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.DataContext.Sqlite\bin\Debug\net8.0\Northwind.DataContext.Sqlite.runtimeconfig.json
+C:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.DataContext.Sqlite\obj\Debug\net8.0\Northwind.DataContext.Sqlite.genruntimeconfig.cache
