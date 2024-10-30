@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Northwind.Blazor.8q4ufichwy.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Northwind.Blazor.hv18sx3ebk.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\app.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\icons.css",
+      "PackagePath": "staticwebassets\\icons.css"
     },
     {
       "Id": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

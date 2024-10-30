@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/brett/Documents/csharp/CS12-Dotnet8/chap13/PracticalApps/Northwind.Blazor/Components/Pages/Customers.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDdXN0b21lcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/brett/Documents/csharp/CS12-Dotnet8/chap13/PracticalApps/Northwind.Blazor/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

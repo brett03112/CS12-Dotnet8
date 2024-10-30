@@ -1,9 +1,15 @@
 using Northwind.Blazor.Components;
+using Northwind.Blazor.Services; // To use NorthwindServiceServerSide
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddNorthwindContext();
+
 // Add services to the container.
 builder.Services.AddRazorComponents();
+
+// A transient service is one that creates a new instance for each request. 
+builder.Services.AddTransient<INorthwindService, NorthwindServiceServerSide>();
 
 var app = builder.Build();
 

@@ -1,0 +1,16 @@
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\bin\Debug\net9.0\Northwind.Blazor.Services.deps.json
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\bin\Debug\net9.0\Northwind.Blazor.Services.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\bin\Debug\net9.0\Northwind.Blazor.Services.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\bin\Debug\net9.0\Northwind.EntityModels.Sqlite.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\bin\Debug\net9.0\Northwind.EntityModels.Sqlite.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.csproj.AssemblyReference.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.AssemblyInfoInputs.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.AssemblyInfo.cs
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.csproj.CoreCompileInputs.cache
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.sourcelink.json
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwin.FD95D321.Up2Date
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\refint\Northwind.Blazor.Services.dll
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\Northwind.Blazor.Services.pdb
+c:\Users\brett\Documents\csharp\CS12-Dotnet8\chap13\PracticalApps\Northwind.Blazor.Services\obj\Debug\net9.0\ref\Northwind.Blazor.Services.dll

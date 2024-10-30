@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vPUJYD2ew5VcUILM2hDsKvo0Sv5JCn+x4Xzc2yUtEEY=",
+  "Hash": "lWzErazs7iPpu6bIITzh+IYtFK8oV85PvyfEk2AJik8=",
   "Source": "Northwind.Blazor",
   "BasePath": "_content/Northwind.Blazor",
   "Mode": "Default",
@@ -80,12 +80,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-8q4ufichwy.gz",
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-hv18sx3ebk.gz",
       "SourceId": "Northwind.Blazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Northwind.Blazor",
-      "RelativePath": "Northwind.Blazor#[.{fingerprint=8q4ufichwy}]!.bundle.scp.css.gz",
+      "RelativePath": "Northwind.Blazor#[.{fingerprint=hv18sx3ebk}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -94,8 +94,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0dx8v8k488",
-      "Integrity": "HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=",
+      "Fingerprint": "jcxcayas8v",
+      "Integrity": "LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css"
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\dttoy8digf-l5yxdmi1sy.gz",
+      "SourceId": "Northwind.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Northwind.Blazor",
+      "RelativePath": "icons#[.{fingerprint=l5yxdmi1sy}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\icons.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1i24aa0y24",
+      "Integrity": "V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\icons.css"
     },
     {
       "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\fa7hc4cyt9-fvhpjtyr6v.gz",
@@ -563,12 +584,12 @@
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-8q4ufichwy.gz",
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-hv18sx3ebk.gz",
       "SourceId": "Northwind.Blazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Northwind.Blazor",
-      "RelativePath": "Northwind.Blazor#[.{fingerprint=8q4ufichwy}]?.styles.css.gz",
+      "RelativePath": "Northwind.Blazor#[.{fingerprint=hv18sx3ebk}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -577,8 +598,8 @@
       "RelatedAsset": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Northwind.Blazor.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0dx8v8k488",
-      "Integrity": "HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=",
+      "Fingerprint": "jcxcayas8v",
+      "Integrity": "LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Northwind.Blazor.styles.css"
@@ -1018,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "8q4ufichwy",
-      "Integrity": "kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=",
+      "Fingerprint": "hv18sx3ebk",
+      "Integrity": "fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Northwind.Blazor.styles.css"
@@ -1039,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "8q4ufichwy",
-      "Integrity": "kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=",
+      "Fingerprint": "hv18sx3ebk",
+      "Integrity": "fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css"
@@ -1086,6 +1107,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\icons.css",
+      "SourceId": "Northwind.Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\",
+      "BasePath": "_content/Northwind.Blazor",
+      "RelativePath": "icons#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l5yxdmi1sy",
+      "Integrity": "KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons.css"
     },
     {
       "Identity": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2390,6 +2432,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "icons.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\dttoy8digf-l5yxdmi1sy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000592066311"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k="
+        }
+      ]
+    },
+    {
+      "Route": "icons.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k="
+        }
+      ]
+    },
+    {
+      "Route": "icons.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\dttoy8digf-l5yxdmi1sy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk="
+        }
+      ]
+    },
+    {
+      "Route": "icons.l5yxdmi1sy.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\dttoy8digf-l5yxdmi1sy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000592066311"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5yxdmi1sy"
+        },
+        {
+          "Name": "label",
+          "Value": "icons.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k="
+        }
+      ]
+    },
+    {
+      "Route": "icons.l5yxdmi1sy.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\wwwroot\\icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5yxdmi1sy"
+        },
+        {
+          "Name": "label",
+          "Value": "icons.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdCALBscnXBWIWWx/3BCWhHh7FXo8zPvJTGkiYUDt6k="
+        }
+      ]
+    },
+    {
+      "Route": "icons.l5yxdmi1sy.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\dttoy8digf-l5yxdmi1sy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:48:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l5yxdmi1sy"
+        },
+        {
+          "Name": "label",
+          "Value": "icons.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V+gLqeO7d9CD9WGt1uXRNjtiu5RvaK6mBzik/GARigk="
         }
       ]
     },
@@ -15506,13 +15846,13 @@
       ]
     },
     {
-      "Route": "Northwind.Blazor.8q4ufichwy.bundle.scp.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-8q4ufichwy.gz",
+      "Route": "Northwind.Blazor.bundle.scp.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-hv18sx3ebk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561797753"
+          "Quality": "0.000565930956"
         }
       ],
       "ResponseHeaders": [
@@ -15522,19 +15862,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1779"
+          "Value": "1766"
         },
         {
           "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15550,26 +15890,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
+          "Value": "W/\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "8q4ufichwy"
-        },
-        {
-          "Name": "label",
-          "Value": "Northwind.Blazor.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
         }
       ]
     },
     {
-      "Route": "Northwind.Blazor.8q4ufichwy.bundle.scp.css",
+      "Route": "Northwind.Blazor.bundle.scp.css",
       "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15579,7 +15911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5979"
+          "Value": "5929"
         },
         {
           "Name": "Content-Type",
@@ -15587,11 +15919,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
+          "Value": "\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
+        }
+      ]
+    },
+    {
+      "Route": "Northwind.Blazor.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-hv18sx3ebk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU="
+        }
+      ]
+    },
+    {
+      "Route": "Northwind.Blazor.hv18sx3ebk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-hv18sx3ebk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000565930956"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1766"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hv18sx3ebk"
+        },
+        {
+          "Name": "label",
+          "Value": "Northwind.Blazor.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
+        }
+      ]
+    },
+    {
+      "Route": "Northwind.Blazor.hv18sx3ebk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15601,7 +16078,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8q4ufichwy"
+          "Value": "hv18sx3ebk"
         },
         {
           "Name": "label",
@@ -15609,13 +16086,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
         }
       ]
     },
     {
-      "Route": "Northwind.Blazor.8q4ufichwy.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-8q4ufichwy.gz",
+      "Route": "Northwind.Blazor.hv18sx3ebk.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-hv18sx3ebk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15624,7 +16101,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1779"
+          "Value": "1766"
         },
         {
           "Name": "Content-Type",
@@ -15632,11 +16109,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15654,7 +16131,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8q4ufichwy"
+          "Value": "hv18sx3ebk"
         },
         {
           "Name": "label",
@@ -15662,18 +16139,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA="
+          "Value": "sha256-LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU="
         }
       ]
     },
     {
-      "Route": "Northwind.Blazor.8q4ufichwy.styles.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-8q4ufichwy.gz",
+      "Route": "Northwind.Blazor.hv18sx3ebk.styles.css",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-hv18sx3ebk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561797753"
+          "Quality": "0.000565930956"
         }
       ],
       "ResponseHeaders": [
@@ -15683,15 +16160,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1779"
+          "Value": "1766"
         },
         {
           "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15711,13 +16188,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
+          "Value": "W/\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8q4ufichwy"
+          "Value": "hv18sx3ebk"
         },
         {
           "Name": "label",
@@ -15725,12 +16202,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
         }
       ]
     },
     {
-      "Route": "Northwind.Blazor.8q4ufichwy.styles.css",
+      "Route": "Northwind.Blazor.hv18sx3ebk.styles.css",
       "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Northwind.Blazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15740,7 +16217,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5979"
+          "Value": "5929"
         },
         {
           "Name": "Content-Type",
@@ -15748,11 +16225,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
+          "Value": "\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15762,7 +16239,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8q4ufichwy"
+          "Value": "hv18sx3ebk"
         },
         {
           "Name": "label",
@@ -15770,13 +16247,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
         }
       ]
     },
     {
-      "Route": "Northwind.Blazor.8q4ufichwy.styles.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-8q4ufichwy.gz",
+      "Route": "Northwind.Blazor.hv18sx3ebk.styles.css.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-hv18sx3ebk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15785,7 +16262,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1779"
+          "Value": "1766"
         },
         {
           "Name": "Content-Type",
@@ -15793,11 +16270,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15815,7 +16292,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8q4ufichwy"
+          "Value": "hv18sx3ebk"
         },
         {
           "Name": "label",
@@ -15823,155 +16300,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA="
-        }
-      ]
-    },
-    {
-      "Route": "Northwind.Blazor.bundle.scp.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-8q4ufichwy.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000561797753"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1779"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
-        }
-      ]
-    },
-    {
-      "Route": "Northwind.Blazor.bundle.scp.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Northwind.Blazor.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5979"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
-        }
-      ]
-    },
-    {
-      "Route": "Northwind.Blazor.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\6ezmaslsmp-8q4ufichwy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1779"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA="
+          "Value": "sha256-LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU="
         }
       ]
     },
     {
       "Route": "Northwind.Blazor.styles.css",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-8q4ufichwy.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-hv18sx3ebk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000561797753"
+          "Quality": "0.000565930956"
         }
       ],
       "ResponseHeaders": [
@@ -15981,15 +16321,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1779"
+          "Value": "1766"
         },
         {
           "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16009,13 +16349,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
+          "Value": "W/\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
         }
       ]
     },
@@ -16030,7 +16370,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5979"
+          "Value": "5929"
         },
         {
           "Name": "Content-Type",
@@ -16038,11 +16378,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE=\""
+          "Value": "\"fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16052,13 +16392,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kJUrnvVMBNaFWjbT7QaPY2gVMwF0oagEeLCEjSwMxyE="
+          "Value": "sha256-fSsCGE+YVZRDh6PM5NLQslcneyVRwkad6NwbEbFTWdQ="
         }
       ]
     },
     {
       "Route": "Northwind.Blazor.styles.css.gz",
-      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-8q4ufichwy.gz",
+      "AssetFile": "C:\\Users\\brett\\Documents\\csharp\\CS12-Dotnet8\\chap13\\PracticalApps\\Northwind.Blazor\\obj\\Debug\\net9.0\\compressed\\pnjw7mjl59-hv18sx3ebk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16067,7 +16407,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1779"
+          "Value": "1766"
         },
         {
           "Name": "Content-Type",
@@ -16075,11 +16415,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA=\""
+          "Value": "\"LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 12:13:04 GMT"
+          "Value": "Tue, 29 Oct 2024 23:58:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16097,7 +16437,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HMYbMuAy+o+NRMJB0EAbTYgsO9HKAK6S7uq51EB3khA="
+          "Value": "sha256-LRojlADsb8uEdC3CsYlDz8L7XQ1SvNr7aoIh7s5MrTU="
         }
       ]
     }
